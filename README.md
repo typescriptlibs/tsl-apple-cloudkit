@@ -27,23 +27,27 @@ This package is compatible to
 
 Installation & Update
 ---------------------
+```
 npm i https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz
+```
 
 Configuration
 -------------
 On client side you have to configure RequireJS to find the client handler, that
 has to be moved outside the node.js package:
-
+```
 require.config({
     paths: {
         'tsl-apple-cloudkit': 'libs/tsl-apple-cloudkit',
     }
 });
+```
 
 Please note, that the handler requires a static reference to CloudKit JS in the
 HTML head like this:
-
+```
 <script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" />
+```
 
 Usage
 -----
