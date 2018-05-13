@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"traceResolution": false,
+		"module": "amd",
+		"moduleResolution": "node",
+		"outDir": "../../release/tests/client/",
+		"rootDir": "./",
+		"target": "es5",
+		"baseUrl": "./",
+		"paths": {
+			"*": [
+				"../../node_modules/@types/node/",
+				"../../node_modules/typescript/"
+			],
+			"tsl-apple-cloudkit": [
+				"../../sources/tsl-apple-cloudkit"
+			],
+			"testsconfig": [
+				"./testsconfig"
+			]
+		}
+	},
+	"exclude": [
+		"../../node_modules/",
+		"../../release/",
+		"../../sources/"
+	],
+	"files": [
+		"./tests.ts"
+	]
+}
