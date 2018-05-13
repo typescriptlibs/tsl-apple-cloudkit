@@ -1,0 +1,29 @@
+{
+	"version": "0.2.14",
+	"name": "tsl-apple-cloudkit",
+	"license": "MIT",
+	"description": "Apple CloudKit TypeScript Library",
+	"author": "TypeScriptLibs and Contributors",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"bugs": {
+		"email": "bug@typescriptlibs.org"
+	},
+	"keywords": [
+		"Apple",
+		"CloudKit",
+		"TypeScript",
+		"framework",
+		"library",
+		"tsc",
+		"tsl"
+	],
+	"homepage": "https://typescriptlibs.org/",
+	"repository": {
+		"type": "git",
+		"url": "https://typescriptlibs.org/git/tsl-apple-cloudkit.git"
+	},
+	"scripts": {
+		"install": "node install.js"
+	}
+}
