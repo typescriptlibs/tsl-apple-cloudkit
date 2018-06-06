@@ -11,8 +11,7 @@ github:
     private: true
 
 header_pages:
- - title: See all packages
-   url: https://typescriptlibs.org/
+ - See all packages: https://typescriptlibs.org/
 
 plugins:
  - jekyll-feed
