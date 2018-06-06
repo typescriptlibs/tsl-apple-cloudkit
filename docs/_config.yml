@@ -2,7 +2,7 @@ title: Apple CloudKit TypeScript Library
 description: Libraries for TypeScript
 author: © TypeScriptLibs
 email: bug@typescriptlibs.org
-github_username:  typescriptlibs
+github_username:  typescriptlibs/tsl-apple-cloudkit
 rss: rss
 
 show_excerpts: false
@@ -10,7 +10,7 @@ show_excerpts: false
 github:
     private: true
 
-pages:
+header_pages:
  - title: See all packages
    url: https://typescriptlibs.org/
 
