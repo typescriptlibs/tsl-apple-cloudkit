@@ -1,0 +1,24 @@
+title: Apple CloudKit TypeScript Library
+description: Libraries for TypeScript
+author: © TypeScriptLibs
+email: bug@typescriptlibs.org
+github_username:  typescriptlibs
+rss: rss
+
+show_excerpts: false
+
+github:
+    private: true
+
+pages:
+ - title: See all packages
+   url: https://typescriptlibs.org/
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+theme: minima
+
+minima:
+  date_format: "%Y-%m-%d"
