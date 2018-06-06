@@ -10,9 +10,6 @@ show_excerpts: false
 github:
     private: true
 
-header_pages:
- - See all packages: https://typescriptlibs.org/
-
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
