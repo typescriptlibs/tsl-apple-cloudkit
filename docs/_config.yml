@@ -10,6 +10,10 @@ show_excerpts: false
 github:
     private: true
 
+header_pages:
+ - index.md
+ - libraries.md
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
