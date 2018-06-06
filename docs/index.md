@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: default
 title: Version 0.2.14
 ---
 
 
 
+# Version 0.2.14
 CloudKit JS v2 type declarations for TypeScript v2
 
 
@@ -74,7 +75,12 @@ and [Apple iCloud Development](https://developer.apple.com/icloud/).
 
 
 ## Legal Notes
-The downloaded main.js is licensed only for use to Apple developers in providing CloudKit Web Services, or any part thereof, and is subject to the iCloud Terms and Conditions and the Apple Developer Program License Agreement. You may not port this file to another platform inconsistent with the iCloud Terms and Conditions, the Apple Developer Program License Agreement, or the accompanying Documentation without Apple's written consent. Acknowledgements:
+The downloaded main.js is licensed only for use to Apple developers in providing
+CloudKit Web Services, or any part thereof, and is subject to the iCloud Terms
+and Conditions and the Apple Developer Program License Agreement. You may not
+port this file to another platform inconsistent with the iCloud Terms and
+Conditions, the Apple Developer Program License Agreement, or the accompanying
+Documentation without Apple's written consent. Acknowledgements:
 [acknowledgements.txt](https://cdn.apple-cloudkit.com/ck/2/acknowledgements.txt)
 
 
