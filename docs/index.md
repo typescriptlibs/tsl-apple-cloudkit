@@ -6,7 +6,7 @@ title: Version 0.2.14
 
 
 # Version 0.2.14
-CloudKit JS v2 type declarations for TypeScript v2
+CloudKit JS v2 type declarations for TypeScript
 
 
 
