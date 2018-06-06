@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Version 0.2.14
 ---
 
