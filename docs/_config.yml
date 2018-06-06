@@ -1,8 +1,8 @@
 title: Apple CloudKit TypeScript Library
-description: Libraries for TypeScript
+description: CloudKit JS v2 Library for TypeScript
 author: © TypeScriptLibs
 email: bug@typescriptlibs.org
-github_username:  typescriptlibs/tsl-apple-cloudkit
+github_username:  typescriptlibs
 rss: rss
 
 show_excerpts: false
