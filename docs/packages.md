@@ -6,9 +6,10 @@ title: Packages
 
 
 # Packages
+Use [tsl-apple-cloudkit.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz) ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit.sha1)) for the lastest version.
+
 | Node Package | SHA1 Checksum |
 |--------------|---------------|
-| [tsl-apple-cloudkit.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz) | [9515ae0d207f5f29d74ffc75db01807740513d6e](https://typescriptlibs.org/npm/tsl-apple-cloudkit.sha1) |
 | [v0.2.14.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.14.tgz) | [9515ae0d207f5f29d74ffc75db01807740513d6e](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.14.sha1) |
 | [v0.2.13.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.13.tgz) | [9821eb3119b94f89f1b9e0070c225fe5e96e7494](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.13.sha1) |
 | [v0.2.12.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.12.tgz) | [8e89680c4d471bf3931df4336a824e0fcef89809](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.12.sha1) |
