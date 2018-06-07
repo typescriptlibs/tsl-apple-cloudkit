@@ -8,6 +8,9 @@ title: Version 0.2.14
 # Version 0.2.14
 CloudKit JS v2 type declarations for TypeScript
 
+Package: [tsl-apple-cloudkit.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz)
+  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit.sha1), [More](packages.md))
+
 
 
 ## Changes
@@ -82,32 +85,3 @@ port this file to another platform inconsistent with the iCloud Terms and
 Conditions, the Apple Developer Program License Agreement, or the accompanying
 Documentation without Apple's written consent. Acknowledgements:
 [acknowledgements.txt](https://cdn.apple-cloudkit.com/ck/2/acknowledgements.txt)
-
-
-
-## Packages
-
-- [tsl-apple-cloudkit.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit.sha1))
-- [v0.2.14.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.14.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.14.sha1))
-- [v0.2.13.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.13.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.13.sha1))
-- [v0.2.12.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.12.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.12.sha1))
-- [v0.2.11.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.11.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.11.sha1))
-- [v0.2.10.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.10.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.10.sha1))
-- [v0.2.9.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.9.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.9.sha1))
-- [v0.2.8.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.8.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.8.sha1))
-- [v0.2.7.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.7.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.7.sha1))
-- [v0.2.6.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.6.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.6.sha1))
-- [v0.2.5.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.5.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.5.sha1))
-- [v0.2.4.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.4.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.4.sha1))
