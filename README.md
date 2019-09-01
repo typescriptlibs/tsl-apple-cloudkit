@@ -1,4 +1,4 @@
-tsl-apple-cloudkit v0.2.14
+tsl-apple-cloudkit v0.2.15
 ==========================
 CloudKit JS v2 type declarations for TypeScript v2
 
