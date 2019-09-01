@@ -27,9 +27,9 @@ TARGET="release/tsl-apple-cloudkit/"
 echo ".npmignore" > "${TARGET}.npmignore"
 echo "index.js" >> "${TARGET}.npmignore"
 
-cp "LICENSE.txt" "${TARGET}LICENSE.txt"
+cp "LICENSE" "${TARGET}LICENSE.txt"
 cp "publish.json" "${TARGET}package.json"
-cp "README.txt" "${TARGET}README.txt"
+cp "README.md" "${TARGET}README.txt"
 cp "sources/tsl-apple-cloudkit.d.ts" "${TARGET}index.d.ts"
 
 cd "release"

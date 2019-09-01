@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Version 0.2.14
+title: Version 0.2.15
 ---
 
 
 
-# Version 0.2.14
+# Version 0.2.15
 CloudKit JS v2 type declarations for TypeScript
 
 Package: [tsl-apple-cloudkit.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz)
@@ -31,7 +31,7 @@ documentation by Apple. The following changes have been made:
 ## Requirements
 This package is compatible to
 - CloudKit JS 2.0 and later
-- Node.js 6.8 and later (server)
+- Node.js 8.10 and later (server)
 - RequireJS 2.0 and later (client)
 - TypeScript 2.0 and later (development)
 
