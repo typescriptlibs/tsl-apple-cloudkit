@@ -4,7 +4,7 @@
     "description": "TypeScript Library for Apple CloudKit JS",
     "license": "MIT",
     "name": "tsl-apple-cloudkit-dev",
-    "repository": "https://typescriptlibs.org/git/tsl-apple-cloudkit.git",
+    "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
     "version": "0.2.15",
     "devDependencies": {
         "@types/node": ">=8.10.53",
