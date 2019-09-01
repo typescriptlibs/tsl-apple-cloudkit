@@ -1,14 +1,14 @@
 {
     "author": "TypeScriptLibs and Contributors",
+    "bugs": "https://github.com/typescriptlibs/tsl-apple-cloudkit/issues/new",
     "description": "TypeScript Library for Apple CloudKit JS",
     "homepage": "https://typescriptlibs.org/",
     "license": "MIT",
     "main": "index.js",
     "name": "tsl-apple-cloudkit",
-    "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit",
+    "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
     "types": "index.d.ts",
     "version": "0.2.15",
-    "bugs": "https://github.com/typescriptlibs/tsl-apple-cloudkit",
     "engines": {
         "node": ">=8.16.1"
     },
