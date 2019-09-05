@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Version 0.2.15
+title: Version 0.2.16
 ---
 
 
 
-# Version 0.2.15
+# Version 0.2.16
 CloudKit JS v2 type declarations for TypeScript
 
 Package: [tsl-apple-cloudkit.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz)
