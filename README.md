@@ -1,6 +1,7 @@
-tsl-apple-cloudkit v0.2.15
+tsl-apple-cloudkit v0.2.16
 ==========================
-CloudKit JS v2 type declarations for TypeScript v2
+TypeScript Library with type declarations of Apple CloudKit JS v2. It downloads
+the CloudKit JS file automatically from the Apple CDN during installation.
 
 Changes
 -------
@@ -27,31 +28,37 @@ This package is compatible to
 
 Installation & Update
 ---------------------
-```
+```sh
 npm i https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz
 ```
 
 Configuration
 -------------
-On client side you have to configure RequireJS to find the client handler, that
-has to be moved outside the node.js package:
-```
+On client side you can configure RequireJS to find the client handler, that has
+to be moved outside the NodeJS package:
+```js
 require.config({
     paths: {
         'tsl-apple-cloudkit': 'libs/tsl-apple-cloudkit',
     }
 });
 ```
-
-Please note, that the handler requires a static reference to CloudKit JS in the
-HTML head like this:
-```
+Please note: If you do not create a bundle including `tsl-apple-cloudkit`, the
+handler requires a static reference to CloudKit JS in the HTML head like this:
+```html
 <script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" />
 ```
 
 Usage
 -----
+You can use the CloudKit JS simply as a regular module:
+```ts
 import * as CloudKit from 'tsl-apple-cloudkit';
+```
+Or you reference the CloudKit JS declarations for the static HTML head:
+```ts
+/// <reference path="node_modules/tsl-apple-cloudkit/index.d.ts" />
+```
 
 Documentation
 -------------
