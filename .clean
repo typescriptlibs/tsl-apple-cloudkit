@@ -1,0 +1,3 @@
+release/tests
+release/tsl-apple-cloudkit/**/*
+release/tsl-apple-cloudkit/**/*.*
