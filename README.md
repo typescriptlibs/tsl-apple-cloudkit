@@ -43,7 +43,7 @@ require.config({
     }
 });
 ```
-Please note: If you do not create a bundle including `tsl-apple-cloudkit`, the
+Please note: If you do not create a bundle containg `tsl-apple-cloudkit`, the
 handler requires a static reference to CloudKit JS in the HTML head like this:
 ```html
 <script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" />
@@ -55,7 +55,7 @@ You can use the CloudKit JS simply as a regular module:
 ```ts
 import * as CloudKit from 'tsl-apple-cloudkit';
 ```
-Or you reference the CloudKit JS declarations for the static HTML head:
+Or you reference the CloudKit JS declarations directly, when you use no modules:
 ```ts
 /// <reference path="node_modules/tsl-apple-cloudkit/index.d.ts" />
 ```
