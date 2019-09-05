@@ -1,0 +1,992 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CKError | Apple CloudKit API</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="https://typescriptlibs.org/" class="title">TypeScript Libraries</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">CloudKit</a>
+				</li>
+				<li>
+					<a href="cloudkit.ckerror.html">CKError</a>
+				</li>
+			</ul>
+			<h1>
+			Class CKError</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>A CKError object encapsulates an error that may occur when you use
+						CloudKit JS. This includes CloudKit server errors and local errors.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">CKError</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#ckerrorcode" class="tsd-kind-icon">ck<wbr>Error<wbr>Code</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#extensionerrorcode" class="tsd-kind-icon">extension<wbr>Error<wbr>Code</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#isckerror" class="tsd-kind-icon">isCKError</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#iserror" class="tsd-kind-icon">is<wbr>Error</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#isservererror" class="tsd-kind-icon">is<wbr>Server<wbr>Error</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#isserverextensionerror" class="tsd-kind-icon">is<wbr>Server<wbr>Extension<wbr>Error</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#reason" class="tsd-kind-icon">reason</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#recordname" class="tsd-kind-icon">record<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#redirecturl" class="tsd-kind-icon">redirectURL</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#retryafter" class="tsd-kind-icon">retry<wbr>After</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#servererrorcode" class="tsd-kind-icon">server<wbr>Error<wbr>Code</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#subscriptionid" class="tsd-kind-icon">subscriptionID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#uuid" class="tsd-kind-icon">uuid</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="cloudkit.ckerror.html#zoneid" class="tsd-kind-icon">zoneID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#access_denied" class="tsd-kind-icon">ACCESS_<wbr>DENIED</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#atomic_error" class="tsd-kind-icon">ATOMIC_<wbr>ERROR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#authentication_failed" class="tsd-kind-icon">AUTHENTICATION_<wbr>FAILED</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#authentication_required" class="tsd-kind-icon">AUTHENTICATION_<wbr>REQUIRED</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#auth_persist_error" class="tsd-kind-icon">AUTH_<wbr>PERSIST_<wbr>ERROR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#bad_request" class="tsd-kind-icon">BAD_<wbr>REQUEST</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#configuration_error" class="tsd-kind-icon">CONFIGURATION_<wbr>ERROR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#conflict" class="tsd-kind-icon">CONFLICT</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#exists" class="tsd-kind-icon">EXISTS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#internal_error" class="tsd-kind-icon">INTERNAL_<wbr>ERROR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#invalid_arguments" class="tsd-kind-icon">INVALID_<wbr>ARGUMENTS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#network_error" class="tsd-kind-icon">NETWORK_<wbr>ERROR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#not_found" class="tsd-kind-icon">NOT_<wbr>FOUND</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#quota_exceeded" class="tsd-kind-icon">QUOTA_<wbr>EXCEEDED</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#service_unavailable" class="tsd-kind-icon">SERVICE_<wbr>UNAVAILABLE</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#share_ui_timeout" class="tsd-kind-icon">SHARE_<wbr>UI_<wbr>TIMEOUT</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#sign_in_failed" class="tsd-kind-icon">SIGN_<wbr>IN_<wbr>FAILED</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#throttled" class="tsd-kind-icon">THROTTLED</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#try_again_later" class="tsd-kind-icon">TRY_<wbr>AGAIN_<wbr>LATER</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#unexpected_server_response" class="tsd-kind-icon">UNEXPECTED_<wbr>SERVER_<wbr>RESPONSE</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#unique_field_error" class="tsd-kind-icon">UNIQUE_<wbr>FIELD_<wbr>ERROR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#unknown_error" class="tsd-kind-icon">UNKNOWN_<wbr>ERROR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#validating_reference_error" class="tsd-kind-icon">VALIDATING_<wbr>REFERENCE_<wbr>ERROR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cloudkit.ckerror.html#zone_not_found" class="tsd-kind-icon">ZONE_<wbr>NOT_<wbr>FOUND</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="cloudkit.ckerror.html#tojson" class="tsd-kind-icon">toJSON</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="cloudkit.ckerror.html#tostring" class="tsd-kind-icon">to<wbr>String</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ckerrorcode" class="tsd-anchor"></a>
+					<h3>ck<wbr>Error<wbr>Code</h3>
+					<div class="tsd-signature tsd-kind-icon">ck<wbr>Error<wbr>Code<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The error code for this error.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L165">tsl-apple-cloudkit.d.ts:165</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="extensionerrorcode" class="tsd-anchor"></a>
+					<h3>extension<wbr>Error<wbr>Code</h3>
+					<div class="tsd-signature tsd-kind-icon">extension<wbr>Error<wbr>Code<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The extension error code for this error.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L170">tsl-apple-cloudkit.d.ts:170</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isckerror" class="tsd-anchor"></a>
+					<h3>isCKError</h3>
+					<div class="tsd-signature tsd-kind-icon">isCKError<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A Boolean value indicating whether this is a CloudKit error object.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L175">tsl-apple-cloudkit.d.ts:175</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="iserror" class="tsd-anchor"></a>
+					<h3>is<wbr>Error</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A Boolean value indicating whether this is an error object.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L180">tsl-apple-cloudkit.d.ts:180</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isservererror" class="tsd-anchor"></a>
+					<h3>is<wbr>Server<wbr>Error</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Server<wbr>Error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A Boolean value indicating whether a server error occurred.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L185">tsl-apple-cloudkit.d.ts:185</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isserverextensionerror" class="tsd-anchor"></a>
+					<h3>is<wbr>Server<wbr>Extension<wbr>Error</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Server<wbr>Extension<wbr>Error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A Boolean value indicating whether a server extension error
+							occurred.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L191">tsl-apple-cloudkit.d.ts:191</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="reason" class="tsd-anchor"></a>
+					<h3>reason</h3>
+					<div class="tsd-signature tsd-kind-icon">reason<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A description of the error that occurred.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L196">tsl-apple-cloudkit.d.ts:196</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="recordname" class="tsd-anchor"></a>
+					<h3>record<wbr>Name</h3>
+					<div class="tsd-signature tsd-kind-icon">record<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The name of the record that the operation failed on. This property
+							value is Undefined if the error is unrelated to a record operation.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L202">tsl-apple-cloudkit.d.ts:202</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="redirecturl" class="tsd-anchor"></a>
+					<h3>redirectURL</h3>
+					<div class="tsd-signature tsd-kind-icon">redirectURL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A redirect URL for the user to securely sign in with the user’s
+							Apple ID.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L208">tsl-apple-cloudkit.d.ts:208</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="retryafter" class="tsd-anchor"></a>
+					<h3>retry<wbr>After</h3>
+					<div class="tsd-signature tsd-kind-icon">retry<wbr>After<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The suggested seconds to wait before trying this operation again.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L213">tsl-apple-cloudkit.d.ts:213</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="servererrorcode" class="tsd-anchor"></a>
+					<h3>server<wbr>Error<wbr>Code</h3>
+					<div class="tsd-signature tsd-kind-icon">server<wbr>Error<wbr>Code<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The error code generated by the server.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L218">tsl-apple-cloudkit.d.ts:218</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="subscriptionid" class="tsd-anchor"></a>
+					<h3>subscriptionID</h3>
+					<div class="tsd-signature tsd-kind-icon">subscriptionID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A string that is a unique identifier for the subscription where the
+								error occurred. This property value is Undefined if the error is
+							unrelated to a subscription operation.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L225">tsl-apple-cloudkit.d.ts:225</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="uuid" class="tsd-anchor"></a>
+					<h3>uuid</h3>
+					<div class="tsd-signature tsd-kind-icon">uuid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A unique identifier for this error.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L230">tsl-apple-cloudkit.d.ts:230</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="zoneid" class="tsd-anchor"></a>
+					<h3>zoneID</h3>
+					<div class="tsd-signature tsd-kind-icon">zoneID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.zoneid.html" class="tsd-signature-type">ZoneID</a></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The record zone in the database where the error occurred. This
+								property value is Undefined if the error is unrelated to a zone
+							operation.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L237">tsl-apple-cloudkit.d.ts:237</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="access_denied" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> ACCESS_<wbr>DENIED</h3>
+					<div class="tsd-signature tsd-kind-icon">ACCESS_<wbr>DENIED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>You don’t have permission to access the endpoint, record, zone, or
+							database.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L36">tsl-apple-cloudkit.d.ts:36</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="atomic_error" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> ATOMIC_<wbr>ERROR</h3>
+					<div class="tsd-signature tsd-kind-icon">ATOMIC_<wbr>ERROR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An atomic batch operation failed.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L41">tsl-apple-cloudkit.d.ts:41</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="authentication_failed" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> AUTHENTICATION_<wbr>FAILED</h3>
+					<div class="tsd-signature tsd-kind-icon">AUTHENTICATION_<wbr>FAILED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Authentication was rejected.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L46">tsl-apple-cloudkit.d.ts:46</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="authentication_required" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> AUTHENTICATION_<wbr>REQUIRED</h3>
+					<div class="tsd-signature tsd-kind-icon">AUTHENTICATION_<wbr>REQUIRED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The request requires authentication but none was provided.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L51">tsl-apple-cloudkit.d.ts:51</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="auth_persist_error" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> AUTH_<wbr>PERSIST_<wbr>ERROR</h3>
+					<div class="tsd-signature tsd-kind-icon">AUTH_<wbr>PERSIST_<wbr>ERROR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The authentication persistently failes.
+							A login is required.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L57">tsl-apple-cloudkit.d.ts:57</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="bad_request" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> BAD_<wbr>REQUEST</h3>
+					<div class="tsd-signature tsd-kind-icon">BAD_<wbr>REQUEST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The request was not valid.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L62">tsl-apple-cloudkit.d.ts:62</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="configuration_error" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> CONFIGURATION_<wbr>ERROR</h3>
+					<div class="tsd-signature tsd-kind-icon">CONFIGURATION_<wbr>ERROR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The configuration was not valid.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L67">tsl-apple-cloudkit.d.ts:67</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="conflict" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> CONFLICT</h3>
+					<div class="tsd-signature tsd-kind-icon">CONFLICT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The recordChangeTag value expired.
+							Retry the request with the latest tag.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L73">tsl-apple-cloudkit.d.ts:73</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="exists" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> EXISTS</h3>
+					<div class="tsd-signature tsd-kind-icon">EXISTS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The resource that you attempted to create already exists.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L78">tsl-apple-cloudkit.d.ts:78</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="internal_error" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> INTERNAL_<wbr>ERROR</h3>
+					<div class="tsd-signature tsd-kind-icon">INTERNAL_<wbr>ERROR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An internal error occurred.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L83">tsl-apple-cloudkit.d.ts:83</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="invalid_arguments" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> INVALID_<wbr>ARGUMENTS</h3>
+					<div class="tsd-signature tsd-kind-icon">INVALID_<wbr>ARGUMENTS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The parameters you provided for this method are invalid.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L88">tsl-apple-cloudkit.d.ts:88</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="network_error" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> NETWORK_<wbr>ERROR</h3>
+					<div class="tsd-signature tsd-kind-icon">NETWORK_<wbr>ERROR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A network error occurred, such as a connection time out.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L93">tsl-apple-cloudkit.d.ts:93</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="not_found" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> NOT_<wbr>FOUND</h3>
+					<div class="tsd-signature tsd-kind-icon">NOT_<wbr>FOUND<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The resource was not found.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L98">tsl-apple-cloudkit.d.ts:98</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="quota_exceeded" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> QUOTA_<wbr>EXCEEDED</h3>
+					<div class="tsd-signature tsd-kind-icon">QUOTA_<wbr>EXCEEDED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>If accessing the public database, you exceeded the app’s quota. If
+								accessing the private database, you exceeded the user’s iCloud
+							quota.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L105">tsl-apple-cloudkit.d.ts:105</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="service_unavailable" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> SERVICE_<wbr>UNAVAILABLE</h3>
+					<div class="tsd-signature tsd-kind-icon">SERVICE_<wbr>UNAVAILABLE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The CloudKit service could not be reached.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L110">tsl-apple-cloudkit.d.ts:110</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="share_ui_timeout" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> SHARE_<wbr>UI_<wbr>TIMEOUT</h3>
+					<div class="tsd-signature tsd-kind-icon">SHARE_<wbr>UI_<wbr>TIMEOUT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The share UI failed to load and timed out.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L115">tsl-apple-cloudkit.d.ts:115</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="sign_in_failed" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> SIGN_<wbr>IN_<wbr>FAILED</h3>
+					<div class="tsd-signature tsd-kind-icon">SIGN_<wbr>IN_<wbr>FAILED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The user failed to sign in.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L120">tsl-apple-cloudkit.d.ts:120</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="throttled" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> THROTTLED</h3>
+					<div class="tsd-signature tsd-kind-icon">THROTTLED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The request was throttled.
+							Try the request again later.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L126">tsl-apple-cloudkit.d.ts:126</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="try_again_later" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> TRY_<wbr>AGAIN_<wbr>LATER</h3>
+					<div class="tsd-signature tsd-kind-icon">TRY_<wbr>AGAIN_<wbr>LATER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An internal error occurred.
+							Try the request again.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L132">tsl-apple-cloudkit.d.ts:132</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="unexpected_server_response" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> UNEXPECTED_<wbr>SERVER_<wbr>RESPONSE</h3>
+					<div class="tsd-signature tsd-kind-icon">UNEXPECTED_<wbr>SERVER_<wbr>RESPONSE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>CloudKit JS was not able to decode the server response.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L137">tsl-apple-cloudkit.d.ts:137</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="unique_field_error" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> UNIQUE_<wbr>FIELD_<wbr>ERROR</h3>
+					<div class="tsd-signature tsd-kind-icon">UNIQUE_<wbr>FIELD_<wbr>ERROR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The server rejected the request because there was a conflict with a
+							unique field.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L143">tsl-apple-cloudkit.d.ts:143</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="unknown_error" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> UNKNOWN_<wbr>ERROR</h3>
+					<div class="tsd-signature tsd-kind-icon">UNKNOWN_<wbr>ERROR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An unknown error occurred.
+								For example, if the server returns an error that is not recognized
+							by the version of CloudKit JS you are using.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L150">tsl-apple-cloudkit.d.ts:150</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="validating_reference_error" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> VALIDATING_<wbr>REFERENCE_<wbr>ERROR</h3>
+					<div class="tsd-signature tsd-kind-icon">VALIDATING_<wbr>REFERENCE_<wbr>ERROR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The request violates a validating reference constraint.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L155">tsl-apple-cloudkit.d.ts:155</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="zone_not_found" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> ZONE_<wbr>NOT_<wbr>FOUND</h3>
+					<div class="tsd-signature tsd-kind-icon">ZONE_<wbr>NOT_<wbr>FOUND<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The zone specified in the request was not found.</p>
+						</div>
+					</div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L160">tsl-apple-cloudkit.d.ts:160</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="tojson" class="tsd-anchor"></a>
+					<h3>toJSON</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">toJSON<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JSON</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a JSON representation of this object.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">JSON</span></h4>
+							<p>A JSON representation of this CKError object.</p>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L245">tsl-apple-cloudkit.d.ts:245</a></li>
+								</ul>
+							</aside>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="tostring" class="tsd-anchor"></a>
+					<h3>to<wbr>String</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">to<wbr>String<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a string representation of this object.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+							<p>A string representation of this CKError object.</p>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/8d06dad/sources/tsl-apple-cloudkit.d.ts#L253">tsl-apple-cloudkit.d.ts:253</a></li>
+								</ul>
+							</aside>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="current tsd-kind-module">
+						<a href="../globals.html">Cloud<wbr>Kit</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="cloudkit.ckerror.html" class="tsd-kind-icon">CKError</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#ckerrorcode" class="tsd-kind-icon">ck<wbr>Error<wbr>Code</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#extensionerrorcode" class="tsd-kind-icon">extension<wbr>Error<wbr>Code</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#isckerror" class="tsd-kind-icon">isCKError</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#iserror" class="tsd-kind-icon">is<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#isservererror" class="tsd-kind-icon">is<wbr>Server<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#isserverextensionerror" class="tsd-kind-icon">is<wbr>Server<wbr>Extension<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#reason" class="tsd-kind-icon">reason</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#recordname" class="tsd-kind-icon">record<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#redirecturl" class="tsd-kind-icon">redirectURL</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#retryafter" class="tsd-kind-icon">retry<wbr>After</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#servererrorcode" class="tsd-kind-icon">server<wbr>Error<wbr>Code</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#subscriptionid" class="tsd-kind-icon">subscriptionID</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#uuid" class="tsd-kind-icon">uuid</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#zoneid" class="tsd-kind-icon">zoneID</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#access_denied" class="tsd-kind-icon">ACCESS_<wbr>DENIED</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#atomic_error" class="tsd-kind-icon">ATOMIC_<wbr>ERROR</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#authentication_failed" class="tsd-kind-icon">AUTHENTICATION_<wbr>FAILED</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#authentication_required" class="tsd-kind-icon">AUTHENTICATION_<wbr>REQUIRED</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#auth_persist_error" class="tsd-kind-icon">AUTH_<wbr>PERSIST_<wbr>ERROR</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#bad_request" class="tsd-kind-icon">BAD_<wbr>REQUEST</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#configuration_error" class="tsd-kind-icon">CONFIGURATION_<wbr>ERROR</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#conflict" class="tsd-kind-icon">CONFLICT</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#exists" class="tsd-kind-icon">EXISTS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#internal_error" class="tsd-kind-icon">INTERNAL_<wbr>ERROR</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#invalid_arguments" class="tsd-kind-icon">INVALID_<wbr>ARGUMENTS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#network_error" class="tsd-kind-icon">NETWORK_<wbr>ERROR</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#not_found" class="tsd-kind-icon">NOT_<wbr>FOUND</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#quota_exceeded" class="tsd-kind-icon">QUOTA_<wbr>EXCEEDED</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#service_unavailable" class="tsd-kind-icon">SERVICE_<wbr>UNAVAILABLE</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#share_ui_timeout" class="tsd-kind-icon">SHARE_<wbr>UI_<wbr>TIMEOUT</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#sign_in_failed" class="tsd-kind-icon">SIGN_<wbr>IN_<wbr>FAILED</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#throttled" class="tsd-kind-icon">THROTTLED</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#try_again_later" class="tsd-kind-icon">TRY_<wbr>AGAIN_<wbr>LATER</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#unexpected_server_response" class="tsd-kind-icon">UNEXPECTED_<wbr>SERVER_<wbr>RESPONSE</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#unique_field_error" class="tsd-kind-icon">UNIQUE_<wbr>FIELD_<wbr>ERROR</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#unknown_error" class="tsd-kind-icon">UNKNOWN_<wbr>ERROR</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#validating_reference_error" class="tsd-kind-icon">VALIDATING_<wbr>REFERENCE_<wbr>ERROR</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="cloudkit.ckerror.html#zone_not_found" class="tsd-kind-icon">ZONE_<wbr>NOT_<wbr>FOUND</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#tojson" class="tsd-kind-icon">toJSON</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="cloudkit.ckerror.html#tostring" class="tsd-kind-icon">to<wbr>String</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

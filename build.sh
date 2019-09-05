@@ -14,15 +14,11 @@
 
 cd "$(dirname "$0")/";
 
-rm -rf \
-"release/tsl-apple-cloudkit/"* \
-"release/tsl-apple-cloudkit/"*.* \
-"release/tsl-apple-cloudkit/".??* \
+xargs rm -rf < .clean
 
 TARGET="release/tsl-apple-cloudkit/"
 
-"./node_modules/.bin/tsc" \
---project "sources/" \
+npx tsc --project "sources/"
 
 echo ".npmignore" > "${TARGET}.npmignore"
 echo "index.js" >> "${TARGET}.npmignore"

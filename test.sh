@@ -15,12 +15,9 @@
 cd "$(dirname "$0")/"
 BASE="$(pwd)"
 
-rm -rf "release/tests/"
-
 TARGET="release/tests/"
 
-"./node_modules/.bin/tsc" \
---project "tests/server/" \
+npx tsc --project "tests/server/"
 
 mkdir -p "${TARGET}node_modules/"
 cp -R "release/tsl-apple-cloudkit" "${TARGET}node_modules/"
@@ -32,8 +29,8 @@ openssl sha1 "${TARGET}node_modules/tsl-apple-cloudkit/index.js"
 openssl sha1 "${TARGET}node_modules/tsl-apple-cloudkit/index2.js"
 node "${TARGET}server/tests.js"
 
-#"./node_modules/.bin/tsc" \
-#--project "tests/client/" \
+#npx tsc \
+#--project "tests/client/"
 
 #cp "tests/client/tests.html" "${TARGET}client/tests.html"
 
