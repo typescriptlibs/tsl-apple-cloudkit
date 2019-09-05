@@ -1,8 +1,10 @@
-declare let define: any;
+/// <reference path="../tsl-apple-cloudkit.d.ts" />
+
+declare const define: Function;
 
 define(
-	function ()
-	{
-		return ( window as any ).CloudKit;
-	}
+    function ()
+    {
+        return window.CloudKit;
+    }
 );
