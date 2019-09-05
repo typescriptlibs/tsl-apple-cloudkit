@@ -25,17 +25,5 @@
     ],
     "include": [
         "./**/*.ts"
-    ],
-    "typedocOptions": {
-        "excludeExternals": true,
-        "excludeNotExported": false,
-        "excludePrivate": true,
-        "excludeProtected": true,
-        "includeDeclarations": true,
-        "entryPoint": "CloudKit",
-        "mode": "file",
-        "name": "Apple CloudKit API",
-        "plugin": "none",
-        "readme": "none"
-    }
+    ]
 }
