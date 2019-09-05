@@ -14,63 +14,63 @@ import * as FS from 'fs';
 import * as Http from 'http';
 import * as Https from 'https';
 
-function saveCallback( response: Http.IncomingMessage )
+function saveCallback ( response: Http.IncomingMessage )
 {
-	let dataBuffer: Array<Buffer> = new Array<Buffer>();
+    let dataBuffer: Array<Buffer> = new Array<Buffer>();
 
-	response.on( 'data',
-		function ( data: Buffer )
-		{
-			dataBuffer.push( data );
-		}
-	);
+    response.on( 'data',
+        function ( data: Buffer )
+        {
+            dataBuffer.push( data );
+        }
+    );
 
-	response.on( 'end',
-		function ()
-		{
-			if ( response.statusCode
-				&& response.statusCode < 400 )
-			{
-				FS.writeFileSync( 'index.js', Buffer.concat( dataBuffer ), { encoding: 'binary' } );
-			}
-		}
-	);
+    response.on( 'end',
+        function ()
+        {
+            if ( response.statusCode
+                && response.statusCode < 400 )
+            {
+                FS.writeFileSync( 'index.js', Buffer.concat( dataBuffer ), { encoding: 'binary' } );
+            }
+        }
+    );
 
-	response.on( 'error',
-		function ( error: Error )
-		{
-			console.error( 'HTTPS Error', error );
-			process.exit( 1 );
-		}
-	);
+    response.on( 'error',
+        function ( error: Error )
+        {
+            console.error( 'HTTPS Error', error );
+            process.exit( 1 );
+        }
+    );
 
-	response.setTimeout( 30000,
-		function ()
-		{
-			response.destroy( new Error( 'HTTPS Timeout' ) );
-		}
-	);
+    response.setTimeout( 30000,
+        function ()
+        {
+            response.destroy( new Error( 'HTTPS Timeout' ) );
+        }
+    );
 
 }
 
 let options = {
-	accept: '*/*',
-	encoding: <any>null,
-	host: 'cdn.apple-cloudkit.com',
-	method: 'GET',
-	path: '/ck/2/cloudkit.js',
-	port: 443
+    accept: '*/*',
+    encoding: <any>null,
+    host: 'cdn.apple-cloudkit.com',
+    method: 'GET',
+    path: '/ck/2/cloudkit.js',
+    port: 443
 }
 
 let request = Https.request( options, saveCallback );
 
 request.on( 'error', function ( error )
 {
-	if ( error )
-	{
-		console.error( 'HTTPS Error', error );
-		process.exit( 1 );
-	}
+    if ( error )
+    {
+        console.error( 'HTTPS Error', error );
+        process.exit( 1 );
+    }
 } );
 
 request.end();
