@@ -10,6 +10,7 @@ Use [tsl-apple-cloudkit.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit.t
 
 | Node Package | SHA1 Checksum |
 |--------------|---------------|
+| [v0.2.16.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.16.tgz) | [b32b8bb436a56b1b01d832dcb3b0dcc9c41c27d8](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.16.sha1) |
 | [v0.2.15.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.15.tgz) | [fd039fb194ef8b08703b547d41f83511ff6a4d0e](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.15.sha1) |
 | [v0.2.14.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.14.tgz) | [9515ae0d207f5f29d74ffc75db01807740513d6e](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.14.sha1) |
 | [v0.2.13.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.13.tgz) | [9821eb3119b94f89f1b9e0070c225fe5e96e7494](https://typescriptlibs.org/npm/tsl-apple-cloudkit/v0.2.13.sha1) |
