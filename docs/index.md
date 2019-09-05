@@ -71,6 +71,7 @@ import * as CloudKit from 'tsl-apple-cloudkit';
 
 ## Documentation
 Further information can be found at the
+[API documentation](https://typescriptlibs.org/tsl-apple-cloudkit/api),
 [Apple CloudKit JS Reference](https://developer.apple.com/reference/cloudkitjs),
 [Apple CloudKit JS Video](https://developer.apple.com/videos/play/wwdc2015/710/),
 and [Apple iCloud Development](https://developer.apple.com/icloud/).

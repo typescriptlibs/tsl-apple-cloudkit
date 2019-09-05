@@ -2193,7 +2193,7 @@ ul.tsd-type-parameters {
 .tsd-sources {
   font-size: 14px;
   color: #808080;
-  margin: 0 0 1em 0; }
+  margin: 1em 0 0 0; }
   .tsd-sources a {
     color: #808080;
     text-decoration: underline; }
