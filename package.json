@@ -5,16 +5,20 @@
     "license": "MIT",
     "name": "tsl-apple-cloudkit-dev",
     "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
-    "version": "0.2.15",
+    "version": "0.2.16",
     "devDependencies": {
         "@types/node": ">=8.10.53",
+        "typedoc": "^0.15.0",
+        "typescriptlibs.typedoc.theme": "github:typescriptlibs/typescriptlibs.typedoc.theme#v0.6.2",
         "typescript": "^3.6.2"
     },
     "engines": {
-        "node": ">=8.16.1"
+        "node": ">=10.15.2"
     },
     "scripts": {
         "build": "./build.sh",
+        "clean": "xargs rm -rf < .clean",
+        "docs": "./docs.sh",
         "test": "./build.sh && ./test.sh"
     }
 }
