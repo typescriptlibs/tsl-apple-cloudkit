@@ -1,5 +1,5 @@
-tsl-apple-cloudkit v0.2.16
-==========================
+tsl-apple-cloudkit
+==================
 TypeScript Library with type declarations of Apple CloudKit JS v2. It downloads
 the CloudKit JS file automatically from the Apple CDN during installation.
 
