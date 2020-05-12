@@ -1890,7 +1890,7 @@ declare module CloudKit
          * Possible values are `DEVELOPMENT_ENVIRONMENT` and
          * `PRODUCTION_ENVIRONMENT`.
          */
-        apnsEnvironment?: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' );
+        apnsEnvironment?: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' | 'development' | 'production' );
 
         /**
          * The string that identifies the app’s container. This key is
@@ -1904,7 +1904,7 @@ declare module CloudKit
          * Possible values are `DEVELOPMENT_ENVIRONMENT` and
          * `PRODUCTION_ENVIRONMENT`.
          */
-        environment: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' );
+        environment: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' | 'development' | 'production' );
 
         /**
          * The server-to-server authentication key and related properties.
@@ -1935,7 +1935,7 @@ declare module CloudKit
          * Possible values are `DEVELOPMENT_ENVIRONMENT` and
          * `PRODUCTION_ENVIRONMENT`.
          */
-        apnsEnvironment?: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' );
+        apnsEnvironment?: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' | 'development' | 'production' );
 
         /**
          * The string that identifies the app’s container. This key is
@@ -1949,7 +1949,7 @@ declare module CloudKit
          * Possible values are `DEVELOPMENT_ENVIRONMENT` and
          * `PRODUCTION_ENVIRONMENT`.
          */
-        environment: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' );
+        environment: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' | 'development' | 'production' );
 
         /**
          * The server-to-server authentication key and related properties.
