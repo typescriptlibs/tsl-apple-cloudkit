@@ -63,9 +63,9 @@ Or you reference the CloudKit JS declarations directly, when you use no modules:
 Documentation
 -------------
 Further information can be found at
-https://developer.apple.com/reference/cloudkitjs
-https://developer.apple.com/videos/play/wwdc2015/710/
-https://developer.apple.com/icloud/
+* https://developer.apple.com/documentation/cloudkitjs
+* https://developer.apple.com/videos/play/wwdc2015/710/
+* https://developer.apple.com/icloud/
 
 Legal Notes
 -----------
