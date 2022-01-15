@@ -115,7 +115,7 @@
 					<a name="catch" class="tsd-anchor"></a>
 					<h3>catch</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-						<li class="tsd-signature tsd-kind-icon">catch<span class="tsd-signature-symbol">(</span>onRejected<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><a href="" class="tsd-signature-type">TError</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">catch<span class="tsd-signature-symbol">(</span>onRejected<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -130,7 +130,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>onRejected: <span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><a href="" class="tsd-signature-type">TError</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span></h5>
+									<h5>onRejected: <span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>A Function called when the Promise is rejected. This function has
 										one argument, the rejection reason.</p>
@@ -138,14 +138,14 @@
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-signature">
 											<ul class="tsd-signatures tsd-kind-type-literal">
-												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><a href="" class="tsd-signature-type">TError</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
 											</ul>
 											<ul class="tsd-descriptions">
 												<li class="tsd-description">
 													<h4 class="tsd-parameters-title">Parameters</h4>
 													<ul class="tsd-parameters">
 														<li>
-															<h5><span class="tsd-flag ts-flagOptional">Optional</span> reason: <a href="" class="tsd-signature-type">TError</a></h5>
+															<h5><span class="tsd-flag ts-flagOptional">Optional</span> reason: <span class="tsd-signature-type">TError</span></h5>
 														</li>
 													</ul>
 													<h4 class="tsd-returns-title">Returns
@@ -170,7 +170,7 @@
 							<p>Current or new Promise.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L2267">tsl-apple-cloudkit.d.ts:2267</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L2267">tsl-apple-cloudkit.d.ts:2267</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -180,7 +180,7 @@
 					<a name="then" class="tsd-anchor"></a>
 					<h3>then</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-						<li class="tsd-signature tsd-kind-icon">then<span class="tsd-signature-symbol">(</span>onFulfilled<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span>, onRejected<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><a href="" class="tsd-signature-type">TError</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">then<span class="tsd-signature-symbol">(</span>onFulfilled<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span>, onRejected<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -223,11 +223,31 @@
 									</ul>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> onRejected: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><a href="" class="tsd-signature-type">TError</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> onRejected: <span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>A Function called when the Promise is rejected. This function has
 										one argument, the rejection reason.</p>
 									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>reason<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">TError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5><span class="tsd-flag ts-flagOptional">Optional</span> reason: <span class="tsd-signature-type">TError</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns
+														<span class="tsd-signature-type">any</span>
+													</h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns
@@ -243,7 +263,7 @@
 							<p>A Promise.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L2252">tsl-apple-cloudkit.d.ts:2252</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L2252">tsl-apple-cloudkit.d.ts:2252</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -296,6 +316,5 @@
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>

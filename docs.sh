@@ -14,8 +14,8 @@
 
 cd "$(dirname "$0")/";
 
-npx typedoc \
+npx tsl-typedoc \
 --out "docs/api" \
---tsconfig "sources"
-
-open docs/api/index.html
+"sources/tsl-apple-cloudkit.d.ts" \
+&& \
+open "docs/api/index.html"
