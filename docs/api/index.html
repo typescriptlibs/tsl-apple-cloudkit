@@ -95,34 +95,41 @@
 				<a href="#installation-amp-update" id="installation-amp-update" style="color: inherit; text-decoration: none;">
 					<h2>Installation &amp; Update</h2>
 				</a>
-				<pre><code class="language-sh">npm i https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz</code></pre>
+				<pre><code class="language-sh">npm i https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz
+</code></pre>
 				<a href="#configuration" id="configuration" style="color: inherit; text-decoration: none;">
 					<h2>Configuration</h2>
 				</a>
 				<p>On client side you can configure RequireJS to find the client handler, that has
 				to be moved outside the NodeJS package:</p>
-				<pre><code class="language-js"><span class="hljs-built_in">require</span>.config({
+				<pre><code class="language-js"><span class="hljs-built_in">require</span>.<span class="hljs-title function_">config</span>({
     <span class="hljs-attr">paths</span>: {
-        <span class="hljs-string">'tsl-apple-cloudkit'</span>: <span class="hljs-string">'libs/tsl-apple-cloudkit'</span>,
+        <span class="hljs-string">&#x27;tsl-apple-cloudkit&#x27;</span>: <span class="hljs-string">&#x27;libs/tsl-apple-cloudkit&#x27;</span>,
     }
-});</code></pre>
+});
+</code></pre>
 				<p>Please note: If you do not create a bundle containg <code>tsl-apple-cloudkit</code>, the
 				handler requires a static reference to CloudKit JS in the HTML head like this:</p>
-				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://cdn.apple-cloudkit.com/ck/2/cloudkit.js"</span> /&gt;</span></code></pre>
+				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://cdn.apple-cloudkit.com/ck/2/cloudkit.js&quot;</span> /&gt;</span>
+</code></pre>
 				<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
 					<h2>Usage</h2>
 				</a>
 				<p>You can use the CloudKit JS simply as a regular module:</p>
-				<pre><code class="language-ts"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> CloudKit <span class="hljs-keyword">from</span> <span class="hljs-string">'tsl-apple-cloudkit'</span>;</code></pre>
+				<pre><code class="language-ts"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> <span class="hljs-title class_">CloudKit</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;tsl-apple-cloudkit&#x27;</span>;
+</code></pre>
 				<p>Or you reference the CloudKit JS declarations directly, when you use no modules:</p>
-				<pre><code class="language-ts"><span class="hljs-comment">/// &lt;reference path="node_modules/tsl-apple-cloudkit/index.d.ts" /&gt;</span></code></pre>
+				<pre><code class="language-ts"><span class="hljs-comment">/// &lt;reference path=&quot;node_modules/tsl-apple-cloudkit/index.d.ts&quot; /&gt;</span>
+</code></pre>
 				<a href="#documentation" id="documentation" style="color: inherit; text-decoration: none;">
 					<h2>Documentation</h2>
 				</a>
-				<p>Further information can be found at
-					<a href="https://developer.apple.com/reference/cloudkitjs">https://developer.apple.com/reference/cloudkitjs</a>
-					<a href="https://developer.apple.com/videos/play/wwdc2015/710/">https://developer.apple.com/videos/play/wwdc2015/710/</a>
-				<a href="https://developer.apple.com/icloud/">https://developer.apple.com/icloud/</a></p>
+				<p>Further information can be found at</p>
+				<ul>
+					<li><a href="https://developer.apple.com/documentation/cloudkitjs">https://developer.apple.com/documentation/cloudkitjs</a></li>
+					<li><a href="https://developer.apple.com/videos/play/wwdc2015/710/">https://developer.apple.com/videos/play/wwdc2015/710/</a></li>
+					<li><a href="https://developer.apple.com/icloud/">https://developer.apple.com/icloud/</a></li>
+				</ul>
 				<a href="#legal-notes" id="legal-notes" style="color: inherit; text-decoration: none;">
 					<h2>Legal Notes</h2>
 				</a>
@@ -148,18 +155,6 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-variable">
-						<a href="" class="tsd-kind-icon">define</a>
-					</li>
-					<li class=" tsd-kind-variable">
-						<a href="" class="tsd-kind-icon">request</a>
-					</li>
-					<li class=" tsd-kind-function">
-						<a href="" class="tsd-kind-icon">save<wbr>Callback</a>
-					</li>
-					<li class=" tsd-kind-object-literal">
-						<a href="" class="tsd-kind-icon">options</a>
-					</li>
 				</ul>
 			</nav>
 		</div>
@@ -177,6 +172,5 @@
 </div>
 <div class="overlay"></div>
 <script src="assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>

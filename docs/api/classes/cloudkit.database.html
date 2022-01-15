@@ -121,7 +121,7 @@
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="containeridentifier" class="tsd-anchor"></a>
-					<h3>container<wbr>Identifier</h3>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> container<wbr>Identifier</h3>
 					<div class="tsd-signature tsd-kind-icon">container<wbr>Identifier<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
@@ -130,13 +130,13 @@
 					</div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L526">tsl-apple-cloudkit.d.ts:526</a></li>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L526">tsl-apple-cloudkit.d.ts:526</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="databasescope" class="tsd-anchor"></a>
-					<h3>database<wbr>Scope</h3>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> database<wbr>Scope</h3>
 					<div class="tsd-signature tsd-kind-icon">database<wbr>Scope<span class="tsd-signature-symbol">:</span> <a href="../enums/cloudkit.databasescope.html" class="tsd-signature-type">DatabaseScope</a></div>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
@@ -145,7 +145,7 @@
 					</div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L531">tsl-apple-cloudkit.d.ts:531</a></li>
+							<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L531">tsl-apple-cloudkit.d.ts:531</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -156,7 +156,7 @@
 					<a name="deleterecordzones" class="tsd-anchor"></a>
 					<h3>delete<wbr>Record<wbr>Zones</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">delete<wbr>Record<wbr>Zones<span class="tsd-signature-symbol">(</span>zones<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.zoneid.html" class="tsd-signature-type">ZoneID</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordzonesresponse.html" class="tsd-signature-type">RecordZonesResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Record<wbr>Zones<span class="tsd-signature-symbol">(</span>zones<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.zoneid.html" class="tsd-signature-type">ZoneID</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordzonesresponse.html" class="tsd-signature-type">RecordZonesResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -168,7 +168,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>zones: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.zoneid.html" class="tsd-signature-type">ZoneID</a><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>zones: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.zoneid.html" class="tsd-signature-type">ZoneID</a><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>An array of names of zones or an array of zone ids to delete.</p>
 									</div>
@@ -192,7 +192,7 @@
 							the operation succeeds; otherwise, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L543">tsl-apple-cloudkit.d.ts:543</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L543">tsl-apple-cloudkit.d.ts:543</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -202,7 +202,7 @@
 					<a name="deleterecords" class="tsd-anchor"></a>
 					<h3>delete<wbr>Records</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">delete<wbr>Records<span class="tsd-signature-symbol">(</span>records<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordtodelete.html" class="tsd-signature-type">RecordToDelete</a><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/cloudkit.recorddeleteoptions.html" class="tsd-signature-type">RecordDeleteOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordsresponse.html" class="tsd-signature-type">RecordsResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Records<span class="tsd-signature-symbol">(</span>records<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordtodelete.html" class="tsd-signature-type">RecordToDelete</a><span class="tsd-signature-symbol">&gt;</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/cloudkit.recorddeleteoptions.html" class="tsd-signature-type">RecordDeleteOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordsresponse.html" class="tsd-signature-type">RecordsResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -214,7 +214,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>records: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordtodelete.html" class="tsd-signature-type">RecordToDelete</a><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>records: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordtodelete.html" class="tsd-signature-type">RecordToDelete</a><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Possible values to delete are an array of names of records or an
 										array of records.</p>
@@ -247,7 +247,7 @@
 							operation succeeds; otherwise, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L561">tsl-apple-cloudkit.d.ts:561</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L561">tsl-apple-cloudkit.d.ts:561</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -293,7 +293,7 @@
 							rejects to a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L573">tsl-apple-cloudkit.d.ts:573</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L573">tsl-apple-cloudkit.d.ts:573</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -330,7 +330,7 @@
 							it fails, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L582">tsl-apple-cloudkit.d.ts:582</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L582">tsl-apple-cloudkit.d.ts:582</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -367,7 +367,7 @@
 							rejects to a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L591">tsl-apple-cloudkit.d.ts:591</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L591">tsl-apple-cloudkit.d.ts:591</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -413,7 +413,7 @@
 							or rejects to a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L603">tsl-apple-cloudkit.d.ts:603</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L603">tsl-apple-cloudkit.d.ts:603</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -459,7 +459,7 @@
 							object, or rejects to a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L615">tsl-apple-cloudkit.d.ts:615</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L615">tsl-apple-cloudkit.d.ts:615</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -469,7 +469,7 @@
 					<a name="fetchrecordzones" class="tsd-anchor"></a>
 					<h3>fetch<wbr>Record<wbr>Zones</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">fetch<wbr>Record<wbr>Zones<span class="tsd-signature-symbol">(</span>zones<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordzone.html" class="tsd-signature-type">RecordZone</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordzonesresponse.html" class="tsd-signature-type">RecordZonesResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">fetch<wbr>Record<wbr>Zones<span class="tsd-signature-symbol">(</span>zones<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordzone.html" class="tsd-signature-type">RecordZone</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordzonesresponse.html" class="tsd-signature-type">RecordZonesResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -481,7 +481,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>zones: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordzone.html" class="tsd-signature-type">RecordZone</a><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>zones: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordzone.html" class="tsd-signature-type">RecordZone</a><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Possible values to fetch are an array of names of zones or an array
 										of record zones.</p>
@@ -506,7 +506,7 @@
 							the operation succeeds; otherwise, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L628">tsl-apple-cloudkit.d.ts:628</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L628">tsl-apple-cloudkit.d.ts:628</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -516,7 +516,7 @@
 					<a name="fetchrecords" class="tsd-anchor"></a>
 					<h3>fetch<wbr>Records</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">fetch<wbr>Records<span class="tsd-signature-symbol">(</span>records<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordlike.html" class="tsd-signature-type">RecordLike</a><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/cloudkit.recordfetchoptions.html" class="tsd-signature-type">RecordFetchOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordsresponse.html" class="tsd-signature-type">RecordsResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">fetch<wbr>Records<span class="tsd-signature-symbol">(</span>records<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordlike.html" class="tsd-signature-type">RecordLike</a><span class="tsd-signature-symbol">&gt;</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/cloudkit.recordfetchoptions.html" class="tsd-signature-type">RecordFetchOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordsresponse.html" class="tsd-signature-type">RecordsResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -528,7 +528,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>records: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordlike.html" class="tsd-signature-type">RecordLike</a><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>records: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordlike.html" class="tsd-signature-type">RecordLike</a><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Possible values to fetch are an array of names of records or an
 										array of records.</p>
@@ -559,7 +559,7 @@
 							operation succeeds; otherwise, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L644">tsl-apple-cloudkit.d.ts:644</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L644">tsl-apple-cloudkit.d.ts:644</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -605,7 +605,7 @@
 							rejects to a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L656">tsl-apple-cloudkit.d.ts:656</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L656">tsl-apple-cloudkit.d.ts:656</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -641,7 +641,7 @@
 							<p>A RecordsBatchBuilder object for this database.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L667">tsl-apple-cloudkit.d.ts:667</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L667">tsl-apple-cloudkit.d.ts:667</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -694,7 +694,7 @@
 							operation succeeds; otherwise, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L683">tsl-apple-cloudkit.d.ts:683</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L683">tsl-apple-cloudkit.d.ts:683</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -740,7 +740,7 @@
 							the operation succeeds; otherwise, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L695">tsl-apple-cloudkit.d.ts:695</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L695">tsl-apple-cloudkit.d.ts:695</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -750,7 +750,7 @@
 					<a name="saverecords" class="tsd-anchor"></a>
 					<h3>save<wbr>Records</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">save<wbr>Records<span class="tsd-signature-symbol">(</span>records<span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.recordlike.html" class="tsd-signature-type">RecordLike</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordtosave.html" class="tsd-signature-type">RecordToSave</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordtocreate.html" class="tsd-signature-type">RecordToCreate</a><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/cloudkit.recordsaveoptions.html" class="tsd-signature-type">RecordSaveOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordsresponse.html" class="tsd-signature-type">RecordsResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">save<wbr>Records<span class="tsd-signature-symbol">(</span>records<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordtosave.html" class="tsd-signature-type">RecordToSave</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordtocreate.html" class="tsd-signature-type">RecordToCreate</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordlike.html" class="tsd-signature-type">RecordLike</a><span class="tsd-signature-symbol">&gt;</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/cloudkit.recordsaveoptions.html" class="tsd-signature-type">RecordSaveOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/cloudkit.promise.html" class="tsd-signature-type">Promise</a><span class="tsd-signature-symbol">&lt;</span><a href="cloudkit.recordsresponse.html" class="tsd-signature-type">RecordsResponse</a><span class="tsd-signature-symbol">, </span><a href="cloudkit.ckerror.html" class="tsd-signature-type">CKError</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -762,7 +762,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>records: <a href="../interfaces/cloudkit.recordlike.html" class="tsd-signature-type">RecordLike</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordtosave.html" class="tsd-signature-type">RecordToSave</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/cloudkit.recordtocreate.html" class="tsd-signature-type">RecordToCreate</a><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>records: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordtosave.html" class="tsd-signature-type">RecordToSave</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordtocreate.html" class="tsd-signature-type">RecordToCreate</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/cloudkit.recordlike.html" class="tsd-signature-type">RecordLike</a><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Possible values to save are a an array of records.</p>
 									</div>
@@ -792,7 +792,7 @@
 							if the operation fails, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L710">tsl-apple-cloudkit.d.ts:710</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L710">tsl-apple-cloudkit.d.ts:710</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -838,7 +838,7 @@
 							the operation succeeds; otherwise, a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L722">tsl-apple-cloudkit.d.ts:722</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L722">tsl-apple-cloudkit.d.ts:722</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -885,7 +885,7 @@
 							share record, or rejects to a CKError object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L735">tsl-apple-cloudkit.d.ts:735</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L735">tsl-apple-cloudkit.d.ts:735</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -910,7 +910,7 @@
 							<p>A string representation of this Database object.</p>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/cf65808/sources/tsl-apple-cloudkit.d.ts#L743">tsl-apple-cloudkit.d.ts:743</a></li>
+									<li>Defined in <a href="https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/0fbec0e/sources/tsl-apple-cloudkit.d.ts#L743">tsl-apple-cloudkit.d.ts:743</a></li>
 								</ul>
 							</aside>
 						</li>
@@ -1015,6 +1015,5 @@
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>
