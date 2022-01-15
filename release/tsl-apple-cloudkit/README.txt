@@ -22,7 +22,7 @@ Requirements
 ------------
 This package is compatible to
 - CloudKit JS 2.0 and later
-- Node.js 8.10 and later (server)
+- Node.js 12.0 and later (server)
 - RequireJS 2.0 and later (client)
 - TypeScript 2.0 and later (development)
 
@@ -63,9 +63,9 @@ Or you reference the CloudKit JS declarations directly, when you use no modules:
 Documentation
 -------------
 Further information can be found at
-https://developer.apple.com/reference/cloudkitjs
-https://developer.apple.com/videos/play/wwdc2015/710/
-https://developer.apple.com/icloud/
+* https://developer.apple.com/documentation/cloudkitjs
+* https://developer.apple.com/videos/play/wwdc2015/710/
+* https://developer.apple.com/icloud/
 
 Legal Notes
 -----------

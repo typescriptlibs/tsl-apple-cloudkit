@@ -299,7 +299,7 @@ declare module CloudKit
          * The Apple Push Notification service (APNs) environment associated
          * with this container.
          */
-        apnsEnvironment: string;
+        apnsEnvironment: ( typeof DEVELOPMENT_ENVIRONMENT | typeof PRODUCTION_ENVIRONMENT );
 
         /**
          * The string that identifies the app’s container.
@@ -309,7 +309,7 @@ declare module CloudKit
         /**
          * The container environment, either development or production.
          */
-        environment: string;
+        environment: ( typeof DEVELOPMENT_ENVIRONMENT | typeof PRODUCTION_ENVIRONMENT );
 
         /**
          * Boolean value indicating whether this container is registered to
@@ -1342,13 +1342,13 @@ declare module CloudKit
      * The container environment is not accessible by apps available on the
      * store.
      */
-    export const DEVELOPMENT_ENVIRONMENT: string;
+    export const DEVELOPMENT_ENVIRONMENT: 'development';
 
     /**
      * The container environment is accessible by both development apps and
      * apps available on the store.
      */
-    export const PRODUCTION_ENVIRONMENT: string;
+    export const PRODUCTION_ENVIRONMENT: 'production';
 
     /**
      * The version of CloudKit JS.
@@ -1887,10 +1887,10 @@ declare module CloudKit
          * The Apple Push Notification service (APNs) environment associated
          * with this container.
          *
-         * Possible values are `DEVELOPMENT_ENVIRONMENT` and
-         * `PRODUCTION_ENVIRONMENT`.
+         * Possible values are `development` and `production`. See also
+         * {@link DEVELOPMENT_ENVIRONMENT} and {@link PRODUCTION_ENVIRONMENT}.
          */
-        apnsEnvironment?: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' );
+        apnsEnvironment?: ( 'development' | 'production' );
 
         /**
          * The string that identifies the app’s container. This key is
@@ -1901,10 +1901,10 @@ declare module CloudKit
         /**
          * The version of the app’s container.
          *
-         * Possible values are `DEVELOPMENT_ENVIRONMENT` and
-         * `PRODUCTION_ENVIRONMENT`.
+         * Possible values are `development` and `production`. See also
+         * {@link DEVELOPMENT_ENVIRONMENT} and {@link PRODUCTION_ENVIRONMENT}.
          */
-        environment: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' );
+        environment: ( 'development' | 'production' );
 
         /**
          * The server-to-server authentication key and related properties.
@@ -1932,10 +1932,10 @@ declare module CloudKit
          * The Apple Push Notification service (APNs) environment associated
          * with this container.
          *
-         * Possible values are `DEVELOPMENT_ENVIRONMENT` and
-         * `PRODUCTION_ENVIRONMENT`.
+         * Possible values are `development` and `production`. See also
+         * {@link DEVELOPMENT_ENVIRONMENT} and {@link PRODUCTION_ENVIRONMENT}.
          */
-        apnsEnvironment?: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' );
+        apnsEnvironment?: ( 'development' | 'production' );
 
         /**
          * The string that identifies the app’s container. This key is
@@ -1946,10 +1946,10 @@ declare module CloudKit
         /**
          * The version of the app’s container.
          *
-         * Possible values are `DEVELOPMENT_ENVIRONMENT` and
-         * `PRODUCTION_ENVIRONMENT`.
+         * Possible values are `development` and `production`. See also
+         * {@link DEVELOPMENT_ENVIRONMENT} and {@link PRODUCTION_ENVIRONMENT}.
          */
-        environment: ( 'DEVELOPMENT_ENVIRONMENT' | 'PRODUCTION_ENVIRONMENT' );
+        environment: ( 'development' | 'production' );
 
         /**
          * The server-to-server authentication key and related properties.
