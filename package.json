@@ -5,7 +5,7 @@
     "license": "MIT",
     "name": "tsl-apple-cloudkit-dev",
     "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
-    "version": "0.2.19",
+    "version": "0.2.20",
     "devDependencies": {
         "@types/node": "^12.12.6",
         "typescriptlibs.typedoc": "github:typescriptlibs/typescriptlibs.typedoc#v0.19.3",
