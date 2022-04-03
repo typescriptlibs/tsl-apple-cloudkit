@@ -23,7 +23,7 @@ npx tsc --project "sources/"
 echo ".npmignore" > "${TARGET}.npmignore"
 echo "index.js" >> "${TARGET}.npmignore"
 
-cp "LICENSE" "${TARGET}LICENSE.txt"
+cp "LICENSE.txt" "${TARGET}LICENSE.txt"
 cp "publish.json" "${TARGET}package.json"
 cp "README.md" "${TARGET}README.md"
 cp "sources/tsl-apple-cloudkit.d.ts" "${TARGET}index.d.ts"
