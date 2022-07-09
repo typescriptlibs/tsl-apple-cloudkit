@@ -46,7 +46,7 @@ require.config({
 Please note: If you do not create a bundle containg `tsl-apple-cloudkit`, the
 handler requires a static reference to CloudKit JS in the HTML head like this:
 ```html
-<script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" />
+<script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js"></script>
 ```
 
 Usage
