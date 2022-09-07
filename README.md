@@ -22,7 +22,7 @@ Requirements
 ------------
 This package is compatible to
 - CloudKit JS 2.0 and later
-- Node.js 12.0 and later (server)
+- Node.js 14.0 and later (server)
 - RequireJS 2.0 and later (client)
 - TypeScript 2.0 and later (development)
 
