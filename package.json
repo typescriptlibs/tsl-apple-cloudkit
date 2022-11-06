@@ -4,10 +4,10 @@
     "description": "TypeScript Library for Apple CloudKit JS",
     "license": "MIT",
     "name": "tsl-apple-cloudkit-dev",
+    "version": "0.2.20",
     "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
-    "version": "0.2.19",
     "devDependencies": {
-        "@types/node": "^14.18.27",
+        "@types/node": "^14.18.33",
         "typescript": "~3.9.10",
         "typescriptlibs.typedoc": "github:typescriptlibs/typescriptlibs.typedoc#v0.19.4",
         "typescriptlibs.typedoc.theme": "github:typescriptlibs/typescriptlibs.typedoc.theme#v0.6.2"
@@ -15,6 +15,11 @@
     "engines": {
         "node": ">=14.0.0"
     },
+    "files": [
+        "AUTHORS.md",
+        "LICENSE.txt",
+        "README.md"
+    ],
     "scripts": {
         "build": "./build.sh",
         "clean": "xargs rm -rf < .clean",

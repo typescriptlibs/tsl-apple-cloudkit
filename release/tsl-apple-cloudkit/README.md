@@ -22,7 +22,7 @@ Requirements
 ------------
 This package is compatible to
 - CloudKit JS 2.0 and later
-- Node.js 12.0 and later (server)
+- Node.js 14.0 and later (server)
 - RequireJS 2.0 and later (client)
 - TypeScript 2.0 and later (development)
 
@@ -46,7 +46,7 @@ require.config({
 Please note: If you do not create a bundle containg `tsl-apple-cloudkit`, the
 handler requires a static reference to CloudKit JS in the HTML head like this:
 ```html
-<script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" />
+<script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js"></script>
 ```
 
 Usage

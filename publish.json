@@ -8,9 +8,9 @@
     "name": "tsl-apple-cloudkit",
     "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
     "types": "index.d.ts",
-    "version": "0.2.19",
+    "version": "0.2.20",
     "engines": {
-        "node": ">=12.0.0"
+        "node": ">=14.0.0"
     },
     "keywords": [
         "Apple",
