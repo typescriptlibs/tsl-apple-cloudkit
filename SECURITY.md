@@ -1,6 +1,8 @@
-# Security Policy
+Security Policy
+===============
 
-## Supported Versions
+Supported Versions
+------------------
 
 The following versions of tsl-apple-cloudkit are currently being supported with security updates.
 
@@ -9,7 +11,10 @@ The following versions of tsl-apple-cloudkit are currently being supported with 
 | 0.2.x   | :white_check_mark: |
 | < 0.2   | :x:                |
 
-## Reporting a Vulnerability
+
+
+Reporting a Vulnerability
+-------------------------
 
 Send a detailed description of the security issue to typescriptlibs.org under the `security` handle.
 Please understand that only security issues regarding the installation process of tsl-apple-cloudkit can be addressed.
