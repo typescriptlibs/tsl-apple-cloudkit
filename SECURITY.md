@@ -16,6 +16,8 @@ The following versions of tsl-apple-cloudkit are currently being supported with 
 Reporting a Vulnerability
 -------------------------
 
+**Please do not report security vulnerabilities through public GitHub issues.**
+
 Send a detailed description of the security issue to typescriptlibs.org under the `security` handle.
 Please understand that only security issues regarding the installation process of tsl-apple-cloudkit can be addressed.
 
