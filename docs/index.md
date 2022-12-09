@@ -9,7 +9,7 @@ title: Version 0.2.20
 CloudKit JS v2 type declarations for TypeScript
 
 Package: [tsl-apple-cloudkit.tgz](https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz)
-  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit.sha1), [More](packages.md))
+  ([SHA1](https://typescriptlibs.org/npm/tsl-apple-cloudkit.sha1), [More](https://typescriptlibs.org/package/tsl-apple-cloudkit.html))
 
 
 

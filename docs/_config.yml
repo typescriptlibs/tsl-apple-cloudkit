@@ -2,21 +2,21 @@ title: Apple CloudKit TypeScript Library
 description: CloudKit JS v2 Library for TypeScript
 author: © TypeScriptLibs
 email: bug@typescriptlibs.org
-github_username:  typescriptlibs
+github_username: typescriptlibs
 rss: rss
 
 show_excerpts: false
 
 github:
-    private: true
+  private: true
 
 header_pages:
- - index.md
- - libraries.md
+  - index.md
+  - libraries.md
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
 
 theme: minima
 
