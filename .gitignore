@@ -1,5 +1,5 @@
-release/tests
-testsconfig.*
+tests-run/
+tsl-apple-cloudkit*
 
 # Logs
 logs

@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 ###############################################################################
 #                                                                             #
@@ -14,23 +14,12 @@
 
 cd "$(dirname "$0")/";
 
-xargs rm -rf < .clean
+npm run clean && \
+npx tsc --project "src/" && \
+cp "src/tsl-apple-cloudkit.d.ts" "lib/index.d.ts" && \
+mv -f "lib/client/" "client/" && \
 
-SOURCE="sources/"
-TARGET="release/tsl-apple-cloudkit/"
-
-npx tsc --project "${SOURCE}"
-
-echo ".npmignore" > "${TARGET}.npmignore"
-echo "index.js" >> "${TARGET}.npmignore"
-
-cp "LICENSE.txt" "${TARGET}LICENSE.txt"
-cp "publish.json" "${TARGET}package.json"
-cp "README.md" "${TARGET}README.md"
-cp "${SOURCE}/tsl-apple-cloudkit.d.ts" "${TARGET}index.d.ts"
-
-cd "${TARGET}/.."
-tar -czf "tsl-apple-cloudkit.tgz" "tsl-apple-cloudkit"
-openssl sha1 "tsl-apple-cloudkit.tgz" > "tsl-apple-cloudkit.sha1"
+npm pack  && \
+mv -f tsl-apple-cloudkit-*.tgz "tsl-apple-cloudkit.tgz" && \
+openssl sha1 "tsl-apple-cloudkit.tgz" > "tsl-apple-cloudkit.sha1" && \
 cat "tsl-apple-cloudkit.sha1"
-cd ..

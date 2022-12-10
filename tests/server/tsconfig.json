@@ -1,34 +1,33 @@
 {
-	"compilerOptions": {
-		"forceConsistentCasingInFileNames": true,
-		"noImplicitAny": true,
-		"removeComments": true,
-		"traceResolution": false,
-		"module": "commonjs",
-		"moduleResolution": "node",
-		"outDir": "../../release/tests/server/",
-		"rootDir": "./",
-		"target": "es5",
-		"baseUrl": "./",
-		"paths": {
-			"*": [
-				"../../node_modules/@types/node/",
-				"../../node_modules/typescript/"
-			],
-			"tsl-apple-cloudkit": [
-				"../../sources/tsl-apple-cloudkit"
-			],
-			"testsconfig": [
-				"./testsconfig"
-			]
-		}
-	},
-	"exclude": [
-		"../../node_modules/",
-		"../../release/",
-		"../../sources/"
-	],
-	"files": [
-		"./tests.ts"
-	]
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "traceResolution": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "../../tests-run/server/",
+        "rootDir": "./",
+        "target": "es5",
+        "baseUrl": "./",
+        "paths": {
+            "*": [
+                "../../node_modules/@types/node/",
+                "../../node_modules/typescript/"
+            ],
+            "tsl-apple-cloudkit": [
+                "../../src/tsl-apple-cloudkit"
+            ],
+            "testsconfig": [
+                "./testsconfig"
+            ]
+        }
+    },
+    "exclude": [
+        "../../node_modules/",
+        "../../src/"
+    ],
+    "files": [
+        "./tests.ts"
+    ]
 }
