@@ -1,3 +1,5 @@
-release/tests
-release/tsl-apple-cloudkit/**/*
-release/tsl-apple-cloudkit/**/*.*
+client/
+lib/
+tests-run/
+tsl-apple-cloudkit.sha1
+tsl-apple-cloudkit.tgz

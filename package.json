@@ -1,10 +1,14 @@
 {
     "private": true,
     "author": "TypeScriptLibs and Contributors",
-    "description": "TypeScript Library for Apple CloudKit JS",
+    "description": "TypeScript library for Apple CloudKit JS",
     "license": "MIT",
-    "name": "tsl-apple-cloudkit-dev",
+    "name": "tsl-apple-cloudkit",
     "version": "0.2.20",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "bugs": "https://github.com/typescriptlibs/tsl-apple-cloudkit/issues/new",
+    "homepage": "https://typescriptlibs.org/",
     "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
     "devDependencies": {
         "@types/node": "^14.18.33",
@@ -14,13 +18,25 @@
         "node": ">=14.0.0"
     },
     "files": [
+        "client/",
+        "lib/",
         "AUTHORS.md",
-        "LICENSE.txt",
+        "LICENSE.md",
         "README.md"
     ],
+    "keywords": [
+        "Apple",
+        "CloudKit",
+        "TypeScript"
+    ],
+    "peerDependencies": {
+        "typescript": ">=2.0.0"
+    },
     "scripts": {
         "build": "./build.sh",
         "clean": "xargs rm -rf < .clean",
-        "test": "./build.sh && ./test.sh"
+        "install": "node ./lib/install.js",
+        "test": "./build.sh && ./test.sh",
+        "test:ci": "./test.sh"
     }
 }

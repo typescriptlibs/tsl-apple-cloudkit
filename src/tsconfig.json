@@ -1,0 +1,11 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "traceResolution": false,
+        "outDir": "../lib/"
+    },
+    "files": [
+        "client/tsl-apple-cloudkit.ts",
+        "install.ts"
+    ]
+}

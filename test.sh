@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 ###############################################################################
 #                                                                             #
@@ -15,18 +15,18 @@
 cd "$(dirname "$0")/"
 BASE="$(pwd)"
 
-TARGET="release/tests/"
+TARGET="tests-run/"
 
 npx tsc --project "tests/server/"
 
-mkdir -p "${TARGET}node_modules/"
-cp -R "release/tsl-apple-cloudkit" "${TARGET}node_modules/"
-cd "${TARGET}node_modules/tsl-apple-cloudkit/"
-node "install.js"
+cd "${TARGET}"
+npm init -f -y
+npm i "../tsl-apple-cloudkit.tgz"
 cd "${BASE}"
-curl -s https://cdn.apple-cloudkit.com/ck/2/cloudkit.js > "${TARGET}node_modules/tsl-apple-cloudkit/index2.js"
-openssl sha1 "${TARGET}node_modules/tsl-apple-cloudkit/index.js"
-openssl sha1 "${TARGET}node_modules/tsl-apple-cloudkit/index2.js"
+
+curl -s "https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" > "${TARGET}node_modules/tsl-apple-cloudkit/lib/index2.js"
+openssl sha1 "${TARGET}node_modules/tsl-apple-cloudkit/lib/index.js"
+openssl sha1 "${TARGET}node_modules/tsl-apple-cloudkit/lib/index2.js"
 node "${TARGET}server/tests.js"
 
 #npx tsc \
