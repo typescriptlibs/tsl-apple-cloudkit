@@ -1,5 +1,6 @@
 tests-run/
-tsl-apple-cloudkit*
+tsl-apple-cloudkit*.sha1
+tsl-apple-cloudkit*.tgz
 
 # Logs
 logs
