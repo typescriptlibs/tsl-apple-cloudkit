@@ -1,0 +1,44 @@
+# GitHub Pages config
+
+title: tsl-apple-cloudkit
+description: TypeScript library for Apple CloudKit JS v2
+author: © TypeScriptLibs
+
+email: bug@typescriptlibs.org
+github_username: typescriptlibs
+rss: rss
+
+show_excerpts: false
+
+github:
+  private: true
+
+header_pages:
+  - www/api.md
+  - www/package.md
+  - SECURITY.md
+  - LICENSE.md
+  - www/all-libraries.md
+
+include:
+  - LICENSE.md
+  - SECURITY.md
+  - www/all-libraries.md
+  - www/api/index.md
+  - www/package.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-titles-from-headings
+
+theme: minima
+
+minima:
+  date_format: "%Y-%m-%d"
+  skin: classic
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
