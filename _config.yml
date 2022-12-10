@@ -14,8 +14,7 @@ github:
   private: true
 
 header_pages:
-  - www/api.md
-  - www/package.md
+  - www/download.md
   - SECURITY.md
   - LICENSE.md
   - www/all-libraries.md
@@ -24,8 +23,7 @@ include:
   - LICENSE.md
   - SECURITY.md
   - www/all-libraries.md
-  - www/api/index.md
-  - www/package.md
+  - www/downoad.md
 
 plugins:
   - jekyll-feed
