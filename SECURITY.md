@@ -18,7 +18,7 @@ Reporting a Vulnerability
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Send a detailed description of the security issue to typescriptlibs.org under the `security` handle.
+Send a detailed description of the security issue to typescriptlibs.org under the `security@` handle.
 Please understand that only security issues regarding the installation process of tsl-apple-cloudkit can be addressed.
 
 If you found a security issue in Apple CloudKit JS (`tsl-apple-cloudkit/index.js`), please contact Apple instead.
