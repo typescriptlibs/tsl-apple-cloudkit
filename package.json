@@ -8,9 +8,7 @@
     "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
     "devDependencies": {
         "@types/node": "^14.18.33",
-        "typescript": "~3.9.10",
-        "typescriptlibs.typedoc": "github:typescriptlibs/typescriptlibs.typedoc#v0.19.4",
-        "typescriptlibs.typedoc.theme": "github:typescriptlibs/typescriptlibs.typedoc.theme#v0.6.2"
+        "typescript": "~3.9.10"
     },
     "engines": {
         "node": ">=14.0.0"
@@ -23,7 +21,6 @@
     "scripts": {
         "build": "./build.sh",
         "clean": "xargs rm -rf < .clean",
-        "docs": "./docs.sh",
         "test": "./build.sh && ./test.sh"
     }
 }
