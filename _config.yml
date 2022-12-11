@@ -14,16 +14,17 @@ github:
   private: true
 
 header_pages:
-  - www/download.md
+  - www/downloads.md
   - SECURITY.md
   - LICENSE.md
   - www/all-libraries.md
 
 include:
   - LICENSE.md
+  - README.md
   - SECURITY.md
   - www/all-libraries.md
-  - www/downoad.md
+  - www/downoads.md
 
 plugins:
   - jekyll-feed
