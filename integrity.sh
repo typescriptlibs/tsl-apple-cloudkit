@@ -12,26 +12,23 @@
 #                                                                             #
 ###############################################################################
 
-cd "$(dirname "$0")/"
-BASE="$(pwd)"
+cd "$(dirname "$0")/";
 
-TARGET="tests-run/"
+echo "Integrity hashs for $1";
 
-npx tsc --project "tests/server/"
+echo "\nsha256-";
+cat "$1" | \
+openssl dgst -sha256 -binary | \
+openssl base64 -A
 
-cd "${TARGET}"
-npm init -f -y
-npm i "../tsl-apple-cloudkit.tgz"
-cd "${BASE}"
+echo "\nsha384-";
+cat "$1" | \
+openssl dgst -sha384 -binary | \
+openssl base64 -A
 
-curl -s "https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" > "${TARGET}node_modules/tsl-apple-cloudkit/lib/index2.js"
-openssl sha1 "${TARGET}node_modules/tsl-apple-cloudkit/lib/index.js"
-openssl sha1 "${TARGET}node_modules/tsl-apple-cloudkit/lib/index2.js"
-node "${TARGET}server/tests.js"
+echo "\nsha512-";
+cat "$1" | \
+openssl dgst -sha512 -binary | \
+openssl base64 -A
 
-#npx tsc \
-#--project "tests/client/"
-
-#cp "tests/client/tests.html" "${TARGET}client/tests.html"
-
-#open "release/tests/client/tests.html"
+echo "\n";
