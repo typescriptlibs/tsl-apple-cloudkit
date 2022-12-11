@@ -6,10 +6,10 @@ Supported Versions
 
 The following versions of tsl-apple-cloudkit are currently being supported with security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 0.2.x   | :white_check_mark: |
-| < 0.2   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| 0.2.x   | yes       |
+| < 0.2   | no        |
 
 
 
