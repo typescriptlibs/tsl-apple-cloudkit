@@ -2,26 +2,26 @@
 <html>
 
 <head>
-	<meta charset="UTF-8" />
-	<!-- a bug prevents loading CloudKit JS via RequireJS -->
-	<script type="text/javascript" src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js"></script>
-	<script type="text/javascript" src="http://requirejs.org/docs/release/2.0.3/minified/require.js"></script>
-	<script>
-		require.config({
-			paths: {
-				'tsl-apple-cloudkit': '../client/tsl-apple-cloudkit'
-			}
-		});
-		require(['tests']);
-	</script>
-	<title>CloudKit JS Inspector</title>
+    <meta charset="UTF-8" />
+    <!-- a bug prevents loading CloudKit JS via RequireJS -->
+    <script type="text/javascript" src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js"></script>
+    <script type="text/javascript" src="https://requirejs.org/docs/release/2.0.3/minified/require.js"></script>
+    <script>
+        require.config( {
+            paths: {
+                'tsl-apple-cloudkit': '../client/tsl-apple-cloudkit'
+            }
+        } );
+        require( ['tests'] );
+    </script>
+    <title>CloudKit JS Inspector</title>
 </head>
 
 <body>
-	<h1>CloudKit JS Inspector</h1>
-	<p>Open the developer console of your browser...</p>
-	<div id="apple-sign-in-button"></div>
-	<div id="apple-sign-out-button"></div>
+    <h1>CloudKit JS Inspector</h1>
+    <p>Open the developer console of your browser...</p>
+    <div id="apple-sign-in-button"></div>
+    <div id="apple-sign-out-button"></div>
 </body>
 
 </html>
