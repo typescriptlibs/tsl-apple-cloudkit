@@ -101,6 +101,10 @@ Further information can be found in the
 [Apple CloudKit JS Video](https://developer.apple.com/videos/play/wwdc2015/710/),
 and [Apple iCloud Development](https://developer.apple.com/icloud/).
 
+Use [Apple CKTool JS](https://www.npmjs.com/package/@apple/cktool.database)
+and [Apple CKTool JS Reference](https://developer.apple.com/documentation/cktooljs)
+to manage CloudKit containers and databases.
+
 
 
 Legal Notes
@@ -113,9 +117,4 @@ You may not port this file to another platform inconsistent with the iCloud
 Terms and Conditions, the Apple Developer Program License Agreement, or the
 accompanying Documentation without Apple's written consent.
 
-
-
-Acknowledgements
-----------------
-
-https://cdn.apple-cloudkit.com/ck/2/acknowledgements.txt
+Acknowledgements: https://cdn.apple-cloudkit.com/ck/2/acknowledgements.txt
