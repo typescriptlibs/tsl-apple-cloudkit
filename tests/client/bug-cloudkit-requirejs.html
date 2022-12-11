@@ -2,22 +2,24 @@
 <html>
 
 <head>
-	<meta charset="UTF-8" />
-	<title>CloudKit RequireJS bug</title>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.2/require.min.js"></script>
-	<script type="text/javascript">require.config({
-		"baseUrl": "./",
-		"paths": {
-			"cloudkit": "https://cdn.apple-cloudkit.com/ck/2/cloudkit"
-		}
-	});
-	require(['cloudkit'], function(cloudkit){console.debug('loaded',cloudkit);});
-	</script>
-	<!--script type="text/javascript" src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js"></script-->
+    <meta charset="UTF-8" />
+    <title>CloudKit RequireJS bug</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.2/require.min.js"
+        integrity="sha384-/6fSBW6alCm8WL259qD1kQ6bEBlBQJUEehscPXkJ4vQibYGLIMB6R4MNnKg//Sxj"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">require.config( {
+            "baseUrl": "./",
+            "paths": {
+                "cloudkit": "https://cdn.apple-cloudkit.com/ck/2/cloudkit"
+            }
+        } );
+        require( ['cloudkit'], function ( cloudkit ) { console.debug( 'loaded', cloudkit ); } );
+    </script>
+    <!--script type="text/javascript" src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js"></script-->
 </head>
 
 <body>
-	<p>Take a look in the web inspector.</p>
+    <p>Take a look in the web inspector.</p>
 </body>
 
 </html>
