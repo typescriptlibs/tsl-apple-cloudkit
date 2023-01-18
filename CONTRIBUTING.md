@@ -59,11 +59,7 @@ If you have a design change proposal, please log a suggestion issue.
 
 You will need to complete a Contributor License Agreement (CLA).
 Briefly, this agreement testifies that you are granting us permission to use the submitted change according to the terms of the project's license, and that the work being submitted is under appropriate copyright.
-
-Please submit a Contributor License Agreement (CLA) before submitting a pull request.
-You may print the agreement ([Contribution License Agreement](https://typescriptlibs.org/CLA.pdf), sign, scan, and email it back to <cla@typescriptlibs.org>.
-Be sure to include your github user name along with the agreement.
-Once we have received the signed CLA, we'll review the request.
+Upon submitting a pull request, you will automatically be given instructions on how to sign the CLA.
 
 
 ## Housekeeping ##
