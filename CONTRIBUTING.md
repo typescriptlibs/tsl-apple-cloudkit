@@ -55,13 +55,6 @@ Design changes will not be accepted at this time.
 If you have a design change proposal, please log a suggestion issue.
 
 
-## Legal ##
-
-You will need to complete a Contributor License Agreement (CLA).
-Briefly, this agreement testifies that you are granting us permission to use the submitted change according to the terms of the project's license, and that the work being submitted is under appropriate copyright.
-Upon submitting a pull request, you will automatically be given instructions on how to sign the CLA.
-
-
 ## Housekeeping ##
 
 Your pull request should:
