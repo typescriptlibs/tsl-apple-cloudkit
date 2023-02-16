@@ -6,6 +6,13 @@ the CloudKit JS file automatically from the Apple CDN during NPM installation.
 
 
 
+[![CodeQL](https://github.com/typescriptlibs/tsl-apple-cloudkit/workflows/CodeQL/badge.svg)](https://github.com/typescriptlibs/tsl-apple-cloudkit/actions/workflows/codeql.yml)
+[![Node.js](https://github.com/typescriptlibs/tsl-apple-cloudkit/workflows/Node.js/badge.svg)](https://github.com/typescriptlibs/tsl-apple-cloudkit/actions/workflows/node.js.yml)
+[![npm](https://img.shields.io/npm/v/tsl-apple-cloudkit.svg)](https://www.npmjs.com/package/tsl-apple-cloudkit)
+[![license](https://img.shields.io/npm/l/tsl-apple-cloudkit.svg)](https://github.com/typescriptlibs/tsl-apple-cloudkit/blob/main/LICENSE.md)
+
+
+
 Changes
 -------
 
