@@ -31,11 +31,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-titles-from-headings
 
-theme: minima
+remote_theme: jekyll/minima
 
 minima:
   date_format: "%Y-%m-%d"
-  skin: classic
+  skin: auto
 
 titles_from_headings:
   enabled: true
