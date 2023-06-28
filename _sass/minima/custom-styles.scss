@@ -1,0 +1,26 @@
+a,
+a:visited {
+    color: #609;
+}
+
+.site-header {
+    border-top-color: #609;
+}
+
+.feed-subscribe {
+    display: none;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+    a,
+    a:visited {
+        color: #C9F;
+    }
+
+    .site-header {
+        border-top-color: #C9F;
+    }
+
+}
