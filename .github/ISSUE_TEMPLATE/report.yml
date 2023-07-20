@@ -1,5 +1,4 @@
 name: Bug report or feature request
-title: ""
 description: Report incorrect, incomplete, or missing typing.
 labels: ["Undecided"]
 body:
@@ -10,7 +9,7 @@ body:
 
         Use some words to name the related feature and then summarize the issue.
 
-        `<NAME THE FEATURE> - <SUMMARIZE THE PROBLEM>`
+        `<NAME THE FEATURE> - <SUMMARIZE THE ISSUE>`
 
 
         ### Before you start
