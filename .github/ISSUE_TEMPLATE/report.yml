@@ -36,16 +36,19 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: platform
     attributes:
-      label: What browsers does this issue apply to, if applicable?
+      label: What platforms does this issue apply to, if applicable?
       multiple: true
       options:
         - Chrome
         - Edge (79+)
         - Firefox
         - Safari
+        - Angular
         - Node.js
+        - React
+        - Vue
   - type: textarea
     id: expected
     attributes:
