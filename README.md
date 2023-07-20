@@ -39,15 +39,17 @@ documentation by Apple. The following changes have been made:
 Requirements
 ------------
 
-This package is compatible to
+This package is officially compatible with
 
 - CloudKit JS 2.0 and later
 
-- Node.js 14.0 and later (server)
+- Node.js 16.0 and later (server)
 
 - RequireJS 2.0 and later (client)
 
-- TypeScript 2.0 and later (development)
+- TypeScript 3.0 and later (development)
+
+Earlier versions might work as well, but do not receive updates anymore.
 
 
 
@@ -69,7 +71,7 @@ to be moved outside the NodeJS package:
 ```JavaScript
 require.config({
 	paths: {
-		'tsl-apple-cloudkit': 'libs/tsl-apple-cloudkit',
+		'tsl-apple-cloudkit': 'lib/tsl-apple-cloudkit',
 	}
 });
 ```
@@ -81,12 +83,14 @@ handler requires a static reference to CloudKit JS in the HTML head like this:
 <script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" />
 ```
 
+There are reports that CloudKit JS is not compatible with Angular v13 and later.
+
 
 
 Usage
 -----
 
-You can use the CloudKit JS simply as a regular module:
+You can use the CloudKit JS library simply as a regular module:
 
 ```TypeScript
 import * as CloudKit from 'tsl-apple-cloudkit';
@@ -104,7 +108,7 @@ Documentation
 -------------
 
 Further information can be found in the
-[Apple CloudKit JS Reference](https://developer.apple.com/documentation/cloudkitjs),
+[Apple CloudKit JS Documentation](https://developer.apple.com/documentation/cloudkitjs),
 [Apple CloudKit JS Video](https://developer.apple.com/videos/play/wwdc2015/710/),
 and [Apple iCloud Development](https://developer.apple.com/icloud/).
 
@@ -117,7 +121,7 @@ to manage CloudKit containers and databases.
 Legal Notes
 -----------
 
-The downloaded main.js is licensed only for use to Apple developers in
+The downloaded index.js is licensed only for use to Apple developers in
 providing CloudKit Web Services, or any part thereof, and is subject to the
 iCloud Terms and Conditions and the Apple Developer Program License Agreement.
 You may not port this file to another platform inconsistent with the iCloud
