@@ -1,11 +1,18 @@
 name: Bug report or feature request
-title: "<NAME THE FEATURE> - <SUMMARIZE THE PROBLEM>"
+title: ""
 description: Report incorrect, incomplete, or missing typing.
 labels: ["Undecided"]
 body:
   - type: markdown
     attributes:
       value: |
+        ### Add a helpful title
+
+        Use some words to name the related feature and then summarize the issue.
+
+        `<NAME THE FEATURE> - <SUMMARIZE THE PROBLEM>`
+
+
         ### Before you start
 
         When opening an issue, please:
