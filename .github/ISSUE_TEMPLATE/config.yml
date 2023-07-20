@@ -1,0 +1,21 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report An Issue With CloudKit JS
+    url: https://developer.apple.com/bug-reporting/
+    about: |
+      Report a bug or submit a feature request to Apple using this link.
+  - name: GitHub Discussions
+    url: https://github.com/orgs/typescriptlibs/discussions
+    about: |
+      Does the issue involve a lot of systems, or are you not sure how the issue
+      is related to CloudKit JS? Consider starting a discussion first.
+  - name: CloudKit JS Documentation
+    url: https://developer.apple.com/documentation/cloudkitjs
+    about: |
+      This library is just TypeScript sugar for CloudKit JS. Take a look at
+      Apple's documentation for details around CloudKit.
+  - name: Help With Code
+    url: https://stackoverflow.com/questions/tagged/cloudkit
+    about: |
+      If you are stuck and need help with code, StackOverflow is a great
+      resource.

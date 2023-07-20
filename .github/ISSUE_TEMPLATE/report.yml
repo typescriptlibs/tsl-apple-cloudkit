@@ -1,0 +1,83 @@
+name: Bug Report Or Feature Request
+title: "<NAME THE FEATURE> - <SUMMARIZE THE PROBLEM>"
+description: Report incorrect, incomplete, or missing typing.
+labels: ["Undecided"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Before You Start
+
+        When opening an issue, please:
+
+        - Note that we cannot provide assistance on development.  We recommend
+          asking around on a dedicated help forum like StackOverflow.
+
+        - Keep in mind that we can only address the TypeScript API for
+          CloudKit JS.  Implementation details are in control of Apple only.
+
+        - Provide as much detail as possible.  Code examples are always welcome.
+          The more detail you are able to provide, the better!
+
+        - Write issues primarily in English.  While translation tools are
+          available, we will be able to provide better assistance with
+          pre-translated content.  You are more than welcome to include a version
+          of the issue body in your preferred language alongside the English
+          version.
+
+        ---
+  - type: dropdown
+    id: type
+    attributes:
+      label: What type of issue is this?
+      options:
+        - Bug
+        - Feature Request
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is incorrect, incomplete, or missing?
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers does this issue apply to, if applicable?
+      multiple: true
+      options:
+        - Chrome
+        - Edge (79+)
+        - Firefox
+        - Safari
+        - Node.js
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to see?
+    validations:
+      required: true
+  - type: textarea
+    id: tested
+    attributes:
+      label: How did you test this?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Can you link to a related release note, pull request, or page?
+      description: Link to information that helps to confirm the issue.
+  - type: textarea
+    id: more-info
+    attributes:
+      label: Do you have anything more you want to share?
+      description: Share sample code, screenshots, or recordings.
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        You're finished! Please click **Submit new issue**.
