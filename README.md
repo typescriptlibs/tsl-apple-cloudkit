@@ -83,7 +83,8 @@ handler requires a static reference to CloudKit JS in the HTML head like this:
 <script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" />
 ```
 
-There are reports that CloudKit JS is not compatible with Angular v13 and later.
+There are reports that CloudKit JS might not be compatible with the bundler of
+Angular v13 and later.
 
 
 
