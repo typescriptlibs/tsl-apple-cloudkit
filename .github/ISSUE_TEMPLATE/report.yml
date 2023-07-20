@@ -10,20 +10,13 @@ body:
 
         When opening an issue, please:
 
-        - Note that we cannot provide assistance on development.  We recommend
-          asking around on a dedicated help forum like StackOverflow.
+        - Note that you cannot receive assistance on development.  Try asking around on a dedicated help forum like StackOverflow.
 
-        - Keep in mind that we can only address the TypeScript API for
-          CloudKit JS.  Implementation details are in control of Apple only.
+        - Keep in mind that this library can only address the TypeScript API for CloudKit JS.  Implementation details are in control of Apple only.
 
-        - Provide as much detail as possible.  Code examples are always welcome.
-          The more detail you are able to provide, the better!
+        - Provide as much detail as possible.  Code examples are always welcome.  The more detail you are able to provide, the better!
 
-        - Write issues primarily in English.  While translation tools are
-          available, we will be able to provide better assistance with
-          pre-translated content.  You are more than welcome to include a version
-          of the issue body in your preferred language alongside the English
-          version.
+        - Write issues primarily in English.  While translation tools are available, you will receive better assistance with pre-translated content.  You might also add a text version in your preferred language alongside the English version.
 
         ---
   - type: dropdown
