@@ -1,5 +1,7 @@
 "use strict";
 /// <reference path="../tsl-apple-cloudkit.d.ts" />
-define(function () {
-    return window.CloudKit;
+define('tsl-apple-cloudkit', ["require", "exports"], function (require, exports) {
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.default = window.CloudKit;
 });
+
