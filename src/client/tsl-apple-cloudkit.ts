@@ -3,8 +3,11 @@
 declare const define: Function;
 
 define(
-    function ()
+    'tsl-apple-cloudkit',
+    ["require", "exports"],
+    function ( require: Function, exports: Record<string, unknown> )
     {
-        return window.CloudKit;
+        Object.defineProperty( exports, "__esModule", { value: true } );
+        exports.default = window.CloudKit;
     }
 );
