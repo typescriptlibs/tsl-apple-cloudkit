@@ -2451,9 +2451,7 @@ declare module CloudKit
         /**
          * The type of the field. This key is optional when saving a record.
          */
-        type?: ( 'ASSETID' | 'BOOLEAN' | 'BYTES' | 'DOUBLE' | 'INT64' | 'LOCATION' | 'REFERENCE' | 'STRING' | 'TIMESTAMP' |
-            'ASSETID_LIST' | 'BOOLEAN_LIST' | 'BYTES_LIST' | 'DOUBLE_LIST' | 'INT64_LIST' | 'LOCATION_LIST' | 'REFERENCE_LIST' | 'STRING_LIST' | 'TIMESTAMP_LIST'
-        );
+        type?: ( 'ASSETID' | 'BOOLEAN' | 'BYTES' | 'DOUBLE' | 'INT64' | 'LOCATION' | 'REFERENCE' | 'STRING' | 'TIMESTAMP' | 'ASSETID_LIST' | 'BOOLEAN_LIST' | 'BYTES_LIST' | 'DOUBLE_LIST' | 'INT64_LIST' | 'LOCATION_LIST' | 'REFERENCE_LIST' | 'STRING_LIST' | 'TIMESTAMP_LIST' );
 
         /**
          * The value of the field. All custom record fields are nullable.
@@ -2478,9 +2476,7 @@ declare module CloudKit
          * - "TIMESTAMP": number
          * - "TIMESTAMP_LIST": Array<number>
          */
-        value: ( Asset | Blob | boolean | Location | number | Reference | string | null |
-            Array<( Asset | Blob )> | Array<boolean> | Array<Location> | Array<number> | Array<Reference> | Array<string>
-        );
+        value: ( Asset | Blob | boolean | Location | number | Reference | string | Array<( Asset | Blob )> | Array<boolean> | Array<Location> | Array<number> | Array<Reference> | Array<string> | null );
     }
 
 
