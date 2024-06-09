@@ -4,7 +4,7 @@
     "description": "TypeScript library for Apple CloudKit JS",
     "license": "MIT",
     "name": "tsl-apple-cloudkit",
-    "version": "0.2.32",
+    "version": "0.2.33",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "bugs": "https://github.com/typescriptlibs/tsl-apple-cloudkit/issues/new",

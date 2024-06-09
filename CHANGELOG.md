@@ -3,6 +3,15 @@ Changelog
 
 
 
+v0.2.33
+-------
+
+* Cleaned up lib folder
+
+**Full Changelog**: https://github.com/typescriptlibs/tsl-apple-cloudkit/compare/v0.2.32...v0.2.33
+
+
+
 v0.2.32
 -------
 
