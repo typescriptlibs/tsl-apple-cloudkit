@@ -18,8 +18,9 @@
         "node": ">=16.0.0"
     },
     "files": [
-        "client/",
-        "lib/",
+        "client/tsl-apple-cloudkit.js",
+        "lib/index.d.ts",
+        "lib/install.js",
         "AUTHORS.md",
         "CHANGELOG.md",
         "LICENSE.md",

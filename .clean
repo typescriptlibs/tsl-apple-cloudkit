@@ -1,5 +1,6 @@
 client/
 lib/
+package/
 tests-run/
 tsl-apple-cloudkit.sha1
 tsl-apple-cloudkit.tgz
