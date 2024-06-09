@@ -2449,19 +2449,36 @@ declare module CloudKit
     export interface RecordField
     {
         /**
-         * The type of the field. This key is optional when saving a record;
-         * otherwise, this key is required.* Possible type values are ASSETID,
-         * BOOLEAN, BYTES (= string), DATETIME (= number), DOUBLE (= number),
-         * INT64 (= number), LIST (= Array<RecordField>), LOCATION, REFERENCE,
-         * and STRING.
+         * The type of the field. This key is optional when saving a record.
          */
-        type?: ( 'ASSETID' | 'BOOLEAN' | 'BYTES' | 'DATETIME' | 'DOUBLE' | 'INT64' | 'LIST' | 'LOCATION' | 'REFERENCE' | 'STRING' );
+        type?: ( 'ASSETID' | 'BOOLEAN' | 'BYTES' | 'DOUBLE' | 'INT64' | 'LOCATION' | 'REFERENCE' | 'STRING' | 'TIMESTAMP' | 'ASSETID_LIST' | 'BOOLEAN_LIST' | 'BYTES_LIST' | 'DOUBLE_LIST' | 'INT64_LIST' | 'LOCATION_LIST' | 'REFERENCE_LIST' | 'STRING_LIST' | 'TIMESTAMP_LIST' );
 
         /**
          * The value of the field. All custom record fields are nullable.
+         *
+         * Possible type values are:
+         * - "ASSETID": Blob or CloudKit.Asset
+         * - "ASSETID_LIST": Array<( Blob | CloudKit.Asset )>
+         * - "BOOLEAN": boolean
+         * - "BOOLEAN_LIST": Array<boolean>
+         * - "BYTES": string (base64)
+         * - "BYTES_LIST": Array<string> (base64)
+         * - "DOUBLE": number
+         * - "DOUBLE_LIST": Array<number>
+         * - "INT64": number
+         * - "INT64_LIST": Array<number>
+         * - "LOCATION": CloudKit.Location
+         * - "LOCATION_LIST": Array<CloudKit.Location>
+         * - "REFERENCE": CloudKit.Reference
+         * - "REFERENCE_LIST": Array<CloudKit.Reference>
+         * - "STRING": string
+         * - "STRING_LIST": Array<string>
+         * - "TIMESTAMP": number
+         * - "TIMESTAMP_LIST": Array<number>
          */
-        value: ( Asset | Blob | boolean | Location | number | Array<RecordField> | Reference | string | null );
+        value: ( Asset | Blob | boolean | Location | number | Reference | string | Array<( Asset | Blob )> | Array<boolean> | Array<Location> | Array<number> | Array<Reference> | Array<string> | null );
     }
+
 
     /**
      * A filter dictionary defines the logical conditions for determining
