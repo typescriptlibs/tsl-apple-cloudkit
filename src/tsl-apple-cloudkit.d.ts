@@ -1969,7 +1969,7 @@ declare module CloudKit
          * A unique identifier for the key generated using CloudKit
          * Dashboard at the Apple Developer Site.
          */
-        keyId: string;
+        keyID: string;
 
         /**
          * The path to the PEM encoded key file.
