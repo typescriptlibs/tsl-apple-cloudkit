@@ -6,10 +6,8 @@ author:
   name: © TypeScriptLibs
   email: bug@typescriptlibs.org
 
-show_excerpts: false
-
-exclude:
-  - examples/
+github:
+  private: true
 
 header_pages:
   - www/downloads.md
@@ -29,14 +27,20 @@ plugins:
   - jekyll-seo-tag
   - jekyll-titles-from-headings
 
-remote_theme: jekyll/minima@c6e74bb
+remote_theme: jekyll/minima@2e9c7c0
 
 minima:
   date_format: "%Y-%m-%d"
   skin: auto
   social_links:
-    - { platform: github, user_url: "https://github.com/typescriptlibs/" }
-    - { platform: rss,    user_url: "feed.xml" }
+    - { platform: github,   user_url: "https://github.com/typescriptlibs/" }
+    - { platform: mastodon, user_url: "https://mastodon.social/@typescriptlibs" }
+    - { platform: rss,      user_url: "feed.xml" }
+
+sass:
+  quiet_deps: true
+
+show_excerpts: false
 
 titles_from_headings:
   enabled: true
