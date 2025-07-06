@@ -29,7 +29,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-titles-from-headings
 
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@c6e74bb
 
 minima:
   date_format: "%Y-%m-%d"
