@@ -8,6 +8,9 @@ author:
 
 show_excerpts: false
 
+exclude:
+  - examples/
+
 header_pages:
   - www/downloads.md
   - SECURITY.md
