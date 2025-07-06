@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "baseUrl": "./",
+        "module": "AMD",
+        "moduleResolution": "node",
+        "target": "ES5",
+        "paths": {
+            "tsl-apple-cloudkit": [
+                "../../"
+            ]
+        }
+    }
+}
