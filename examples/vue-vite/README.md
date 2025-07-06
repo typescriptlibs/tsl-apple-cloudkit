@@ -1,4 +1,4 @@
-# tsl-apple-cloudkit vue.js demo
+# tsl-apple-cloudkit: Vue.js + Vite example
 
 # Requirements
 
@@ -12,9 +12,9 @@
 
 ## How to configuration in your project
 
-1. `npm i tsl-apple-cloudkit` 
+1. `npm i tsl-apple-cloudkit`
 
-   
+
 
 2. index.html:
 
@@ -41,17 +41,17 @@
    </template>
    ```
 
-4. 
+4.
 
 5. ```typescript
    <script setup lang="ts">
-   
+
    import { onMounted, ref } from "vue";
    import * as CloudKit from 'tsl-apple-cloudkit';
    import { UserIdentity } from "tsl-apple-cloudkit";
    let container: CloudKit.Container | undefined = undefined
    let messageInfo = ref("")
-   
+
    onMounted(() => {
      let cloudKit = window.CloudKit
      const containerIdentifier = "iCloud.org.netzkonform.CloudKitTS"
@@ -75,7 +75,7 @@
          environment: "development"
        }],
      });
-   
+
      container = configuredCloudKit.getContainer(containerIdentifier)
      container?.setUpAuth()
      container?.whenUserSignsIn()
@@ -86,6 +86,6 @@
              messageInfo.value = error.toString()
          });
    })
-   
+
    </script>
    ```
