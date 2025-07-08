@@ -6,7 +6,7 @@ Changelog
 v0.2.34
 -------
 
-* Rename `ContainerConfigServerKeyAuthObject.keyId` to `keyID` by @MartinJrP in https://github.com/typescriptlibs/tsl-apple-cloudkit/pull/33
+* Renamed `ContainerConfigServerKeyAuthObject.keyId` to `keyID` by @MartinJrP in https://github.com/typescriptlibs/tsl-apple-cloudkit/pull/33
 
 * Updated examples by @sophiebremer in https://github.com/typescriptlibs/tsl-apple-cloudkit/pull/34
 
