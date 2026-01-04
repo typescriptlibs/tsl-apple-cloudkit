@@ -8,7 +8,7 @@
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "bugs": "https://github.com/typescriptlibs/tsl-apple-cloudkit/issues/new",
-    "homepage": "https://typescriptlibs.org/",
+    "homepage": "https://typescriptlibs.eu/",
     "repository": "https://github.com/typescriptlibs/tsl-apple-cloudkit.git",
     "devDependencies": {
         "@types/node": "~18.6.0",
