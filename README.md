@@ -57,7 +57,7 @@ Installation & Update
 ---------------------
 
 ```Shell
-npm i https://typescriptlibs.org/npm/tsl-apple-cloudkit.tgz
+npm i https://typescriptlibs.eu/npm/tsl-apple-cloudkit.tgz
 ```
 
 
