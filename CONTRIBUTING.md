@@ -35,8 +35,8 @@ In general, things we find useful when reviewing suggestions are:
 
 ## Code of Conduct ##
 
-This project has adopted a [Code of Conduct](https://typescriptlibs.org/CONDUCT.pdf).
-Please contact <conduct@typescriptlibs.org> with any questions or comments.
+This project has adopted a [Code of Conduct](https://typescriptlibs.eu/CONDUCT.pdf).
+Please contact <conduct@typescriptlibs.eu> with any questions or comments.
 
 
 ## Contributing bug fixes ##
@@ -71,3 +71,4 @@ Your pull request should:
   * Include baseline changes with your change
   * All changed code must have 100% code coverage
 * To avoid line ending issues, set `autocrlf = input` and `whitespace = cr-at-eol` in your git configuration
+
