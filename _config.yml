@@ -33,7 +33,7 @@ minima:
   date_format: "%Y-%m-%d"
   skin: auto
   social_links:
-    - { platform: github,   user_url: "https://github.com/typescriptlibs/" }
+    - { platform: github,   user_url: "https://git.typescriptlibs.eu/cgi-bin/gitweb.cgi?p=tsl-apple-cloudkit.git" }
     - { platform: mastodon, user_url: "https://mastodon.social/@typescriptlibs" }
     - { platform: rss,      user_url: "feed.xml" }
 
